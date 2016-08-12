@@ -50,8 +50,12 @@
           </div>
           <div class="form-door"></div>
             <form action="/" method="get">
-              <input type="text" name="login" placeholder="Электронная почта">
-              <input type="password" name="password" id="password-field" placeholder="Пароль">
+              <div class="login-block">
+                <input type="text" name="login" placeholder="Электронная почта">
+              </div>
+              <div class="password-block">
+                <input type="password" name="password" id="password-field" placeholder="Пароль">
+              </div>
               <input type="submit" value="Войти">
               <div class="other-data">
                 <a href="#">Забыли пароль</a>
@@ -221,72 +225,73 @@
         </div>
       </div>
     </main>
+  </div>
 
 
-    <div class="main-map">
-      <section class="map-contacts">
-        <p>
-          Адрес главного офиса<br>
-          и офлайн магазина:<br>
-          <span>ул Большая Конюшенная,<br>
-          19/8, Санкт-Петербург</span>
-        </p>
-        <p>
-          для заказов по телефону:<br>
-          <span>8 812 450-25-25</span><br>
-          (с 10 до 20 ежедневно)
-        </p>
-        <a href="#" class="btn">Форма рбратной связи</a>
-      </section>
+  <div class="main-map">
+    <section class="map-contacts">
+      <p>
+        Адрес главного офиса<br>
+        и офлайн магазина:<br>
+        <span>ул Большая Конюшенная,<br>
+        19/8, Санкт-Петербург</span>
+      </p>
+      <p>
+        для заказов по телефону:<br>
+        <span>8 812 450-25-25</span><br>
+        (с 10 до 20 ежедневно)
+      </p>
+      <a href="#" class="btn">Форма рбратной связи</a>
+    </section>
+  </div>
+
+  <div class="dark glass">
+    <div class="feedback">
+      <a href="#">крестик</a>
+      <h2>Мы обязятельно вам ответим!</h2>
+      <form action="/" method="post">
+        <div class="user-name">
+          <input type="text" placeholder="Как вас зовут?">
+        </div>
+        <div class="user-mail">
+          <input type="text" name="login" placeholder="Ваша почта для ответа?">
+        </div>
+        <div class="user-quest">
+          <textarea name="" id="quest" cols="30" rows="10">Напишите что-нибудь...</textarea>
+        </div>
+      </form>
     </div>
+  </div>
 
-    <div class="dark glass">
-      <div class="feedback">
-        <a href="#">крестик</a>
-        <h2>Мы обязятельно вам ответим!</h2>
-        <form action="/" method="post">
-          <div class="user-name">
-            <input type="text" placeholder="Как вас зовут?">
+
+  <div class="conteiner">
+      <footer class="footer-page">
+        <section class="footer-social">
+          <a class="social-btn social-btn-tw" href="#">Твитер</a>
+          <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+          <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+          <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
+        </section>
+        <section class="footer-menu">
+          <div class=left>
+            <div class="icon icon-heart"></div>
+            <a href="#">Для поставщиков</a>
+            <a href="#">О производстве</a>
           </div>
-          <div class="user-mail">
-            <input type="text" name="login" placeholder="Ваша почта для ответа?">
+          <div class="right">
+            <a href="#">Наши документы</a>
+            <a href="#">Экологические стандарты</a>
           </div>
-          <div class="user-quest">
-            <textarea name="" id="quest" cols="30" rows="10">Напишите что-нибуддь...</textarea>
+        </section>
+        <section class="Footer-info">
+          <div class="logo">
+            <img src="http://placehold.it/150x100">
           </div>
-        </form>
-      </div>
+          <div class="copyright">
+            Сделано в HTML Academy © 2016
+          </div>
+        </section>
+      </footer>
     </div>
-
-
-  <footer class="footer-page">
-    <div class="conteiner">
-      <section class="footer-social">
-        <a class="social-btn social-btn-tw" href="#">Твитер</a>
-        <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
-        <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
-        <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
-      </section>
-      <section class="footer-menu">
-        <div class=left>
-          <div class="icon icon-heart"></div>
-          <a href="#">Для поставщиков</a>
-          <a href="#">О производстве</a>
-        </div>
-        <div class="right">
-          <a href="#">Наши документы</a>
-          <a href="#">Экологические стандарты</a>
-        </div>
-      </section>
-      <section class="Footer-info">
-        <div class="logo">
-          <img src="http://placehold.it/150x100">
-        </div>
-        <div class="copyright">
-          Сделано в HTML Academy © 2016
-        </div>
-      </section>
-    </div>
-  </footer>
 </body>
 </html>
