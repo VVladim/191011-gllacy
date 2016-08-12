@@ -8,7 +8,6 @@
 
 <body>
 
-  <!-- <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Базовый HTML и CSS</a>».</p> -->
   <div class="conteiner">
     <header class="main-header">
       <div class="index-logo">
@@ -32,6 +31,10 @@
         <a class="login" href="#">Вход</a>
         <a class="cart" href="#">2товара</a>
       </div>
+      <section class="main-contacts">
+        <p>С 10 до 20, ежедневно</p>
+        <p>8 812 450-25-25</p>
+      </section>
     </header>
 
     <main>
@@ -50,26 +53,24 @@
           </ul>
         </div>
 
-        <section class="main-contacts">
-          <p>С 10 до 20, ежедневно</p>
-          <p>8 812 450-25-25</p>
-        </section>
+
 
         <div class="filter-block">
           <form action="/" method="post">
-            <div class="form-group">
-              <div class="input-block1">
-                <p>Сортровка:</p>
+            <div class="alter">
+              <div class="sorting-name">
+                <p>Сортировка:</p>
                 <select name="fame">
                   <option value="popular">По популярности</option>
                 </select>
               </div>
-              <div class="input-block2">
+              <div class="sorting-price">
                 <p>Цена: 100руб. -500руб.</p>
                 <input type="range" min="100" max="500" step="50">
               </div>
-              <div class="input-block3">
+              <div class="sorting-">
                 <p>Жирность</p>
+
                 <label>
                   <input type="radio" name="placemark" value="0%"> 0%
                 </label>
@@ -84,8 +85,8 @@
                 </label>
               </div>
             </div>
-            <div class="form-group">
-              <div class="input-block4">
+            <div class="alter">
+              <div class="sorting-taste">
                 <p>Наполнители:</p>
                 <label>
                   <input type="checkbox" name="chocolate" checked> шоколадные
@@ -103,168 +104,163 @@
                   <input type="checkbox" name="jam"> джемы
                 </label>
               </div>
-              <input type="submit" value="Применить">
+              <input type="submit" class="sending" value="Применить">
             </div>
           </form>
         </div>
       </div>
 
-      <div class="items">
-        <div class="item-main 1">
-          <img src="http://placehold.it/150x100">
-          <div class="hit">ХИТ</div>
-          <div class="price-item">
-            <span class="price">380</span>
-            <span class="ruble"></span>
-            <span class="weight">/кг</span>
-          </div>
-          <p>
-            Сливочное с апельсиновым джемом и цитрусовой стружкой
-          </p>
-        </div>
-        <div class="item-main 2">
-          <img src="http://placehold.it/150x100">
-          <div class="hit">ХИТ</div>
-          <div class="price-item">
-            <span class="price">380</span  >
-    <span class="ruble"></span>
-            <span class="weight">/кг</span>
-          </div>
-          <p>
-            Сливочно-кофейное с кусочками шоколада
-          </p>
-        </div>
-        <div class="item-main 3">
-          <img src="http://placehold.it/150x100">
-          <div class="hit">ХИТ</div>
-          <div class="price-item">
-            <span class="price">355</span  >
-      <span class="ruble"></span>
-            <span class="weight">/кг</span>
-          </div>
-          <p>
-            Сливочно-клубничное с присыпкой из белого шоколада
-          </p>
-        </div>
-        <div class="item-main 4">
-          <img src="http://placehold.it/150x100">
-          <div class="hit">ХИТ</div>
-          <div class="price-item">
-            <span class="price">415</span>
-            <span class="ruble"></span>
-            <span class="weight">/кг</span>
-          </div>
-          <p>
-            Сливочное крем-брбле с кармельной подливкой
-          </p>
-        </div>
 
-        <div class="item-main 5">
-          <img src="http://placehold.it/150x100">
-          <div class="hit">ХИТ</div>
-          <div class="price-item">
-            <span class="price">325</span>
-            <span class="ruble"></span>
-            <span class="weight">/кг</span>
+      <div class="catalog-ice">
+        <div class="floor-item">
+          <div class="product-ice">
+            <img src="http://placehold.it/150x100">
+            <div class="price-item">
+              <span class="price">380</span>
+              <span class="ruble"></span>
+              <span class="weight">/кг</span>
+            </div>
+            <p>
+              Сливочное с апельсиновым джемом и цитрусовой стружкой
+            </p>
           </div>
-          <p>
-            Сливочное с брусничным джемом
-          </p>
-        </div>
-        <div class="item-main 6">
-          <img src="http://placehold.it/150x100">
-          <div class="hit">ХИТ</div>
-          <div class="price-item">
-            <span class="price">410</span  >
-      <span class="ruble"></span>
-            <span class="weight">/кг</span>
+          <div class="product-ice">
+            <img src="http://placehold.it/150x100">
+            <div class="price-item">
+              <span class="price">380</span>
+              <span class="ruble"></span>
+              <span class="weight">/кг</span>
+            </div>
+            <p>
+              Сливочно-кофейное с кусочками шоколада
+            </p>
           </div>
-          <p>
-            Сливочно-черничное с цельными ягодами черники
-          </p>
-        </div>
-        <div class="item-main 7">
-          <img src="http://placehold.it/150x100">
-          <div class="hit">ХИТ</div>
-          <div class="price-item">
-            <span class="price">375</sp  an>
-      <span class="ruble"></span>
-            <span class="weight">/кг</span>
+          <div class="product-ice">
+            <img src="http://placehold.it/150x100">
+            <div class="price-item">
+              <span class="price">355</span>
+              <span class="ruble"></span>
+              <span class="weight">/кг</span>
+            </div>
+            <p>
+              Сливочно-клубничное с присыпкой из белого шоколада
+            </p>
           </div>
-          <p>
-            Сливочно-лимонное с карамельной присыпкой
-          </p>
-        </div>
-        <div class="item-main 8">
-          <img src="http://placehold.it/150x100">
-          <div class="hit">ХИТ</div>
-          <div class="price-item">
-            <span class="price">320</span>
-            <span class="ruble"></span>
-            <span class="weight">/кг</span>
+          <div class="product-ice">
+            <img src="http://placehold.it/150x100">
+            <div class="price-item">
+              <span class="price">415</span>
+              <span class="ruble"></span>
+              <span class="weight">/кг</span>
+            </div>
+            <p>
+              Сливочное крем-брбле с кармельной подливкой
+            </p>
           </div>
-          <p>
-            Сливочное с шоколадной стружкой
-          </p>
-        </div>
+          </div>
 
-        <div class="item-main 9">
-          <img src="http://placehold.it/150x100">
-          <div class="hit">ХИТ</div>
-          <div class="price-item">
-            <span class="price">440</span>
-            <span class="ruble"></span>
-            <span class="weight">/кг</span>
+          <div class="floor-item">
+          <div class="product-ice">
+            <img src="http://placehold.it/150x100">
+            <div class="price-item">
+              <span class="price">325</span>
+              <span class="ruble"></span>
+              <span class="weight">/кг</span>
+            </div>
+            <p>
+              Сливочное с брусничным джемом
+            </p>
           </div>
-          <p>
-            Сливочно-ванильное с кусочками шоколада
-          </p>
-        </div>
-        <div class="item-main 10">
-          <img src="http://placehold.it/150x100">
-          <div class="hit">ХИТ</div>
-          <div class="price-item">
-            <span class="price">435</span  >
-      <span class="ruble"></span>
-            <span class="weight">/кг</span>
+          <div class="product-ice">
+            <img src="http://placehold.it/150x100">
+            <div class="price-item">
+              <span class="price">410</span>
+              <span class="ruble"></span>
+              <span class="weight">/кг</span>
+            </div>
+            <p>
+              Сливочно-черничное с цельными ягодами черники
+            </p>
           </div>
-          <p>
-            Сливочное с ментоловым сиропом
-          </p>
-        </div>
-        <div class="item-main 11">
-          <img src="http://placehold.it/150x100">
-          <div class="hit">ХИТ</div>
-          <div class="price-item">
-            <span class="price">355</sp  an>
-      <span class="ruble"></span>
-            <span class="weight">/кг</span>
+          <div class="product-ice">
+            <img src="http://placehold.it/150x100">
+            <div class="price-item">
+              <span class="price">375</span>
+              <span class="ruble"></span>
+              <span class="weight">/кг</span>
+            </div>
+            <p>
+              Сливочно-лимонное с карамельной присыпкой
+            </p>
           </div>
-          <p>
-            Сливочное с кусочками черного шоколада
-          </p>
-        </div>
-        <div class="item-main 12">
-          <img src="http://placehold.it/150x100">
-          <div class="hit">ХИТ</div>
-          <div class="price-item">
-            <span class="price">420</  span>
-      <span class="ruble"></span>
-            <span class="weight">/кг</span>
+          <div class="product-ice">
+            <img src="http://placehold.it/150x100">
+            <div class="price-item">
+              <span class="price">320</span>
+              <span class="ruble"></span>
+              <span class="weight">/кг</span>
+            </div>
+            <p>
+              Сливочное с шоколадной стружкой
+            </p>
           </div>
-          <p>
-            Сливочное с мятным сиропомspan.ruble </p>
+         </div>
+
+          <div class="floor-item">
+          <div class="product-ice">
+            <img src="http://placehold.it/150x100">
+            <div class="price-item">
+              <span class="price">440</span>
+              <span class="ruble"></span>
+              <span class="weight">/кг</span>
+            </div>
+            <p>
+              Сливочно-ванильное с кусочками шоколада
+            </p>
+          </div>
+          <div class="product-ice">
+            <img src="http://placehold.it/150x100">
+            <div class="price-item">
+              <span class="price">435</span>
+              <span class="ruble"></span>
+              <span class="weight">/кг</span>
+            </div>
+            <p>
+              Сливочное с ментоловым сиропом
+            </p>
+          </div>
+          <div class="product-ice">
+            <img src="http://placehold.it/150x100">
+            <div class="price-item">
+              <span class="price">355</span>
+              <span class="ruble"></span>
+              <span class="weight">/кг</span>
+            </div>
+            <p>
+              Сливочное с кусочками черного шоколада
+            </p>
+          </div>
+          <div class="product-ice">
+            <img src="http://placehold.it/150x100">
+            <div class="price-item">
+              <span class="price">420</span>
+              <span class="ruble"></span>
+              <span class="weight">/кг</span>
+            </div>
+            <p>
+              Сливочное с мятным сиропом</p>
+          </div>
         </div>
       </div>
 
       <div class="paginator">
-        <a class="prev" href="#prev">Назад</a>
+        <a class="paginator-prev" href="#prev">Назад</a>
         <a href="#1">1</a>
         <a href="#2">2</a>
         <a href="#3">3</a>
         <a href="#4">4</a>
         <a href="#5">5</a>
-        <a class="next" href="#next">Вперёд</a>
+        <a class="paginator-next" href="#next">Вперёд</a>
       </div>
   </div>
 
