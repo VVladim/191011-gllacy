@@ -17,6 +17,13 @@
         <ul>
           <li>
             <a href="#">Каталог</a>
+            <ul>
+              <li><a href="#">Новинки</a></li>
+              <li><a href="#">Сливочное</a></li>
+              <li><a href="#">Щербеты</a></li>
+              <li><a href="#">Фруктовый мед</a></li>
+              <li><a href="#">Мелории</a></li>
+            </ul>
           </li>
           <li>
             <a href="#">Доставка и оплата</a>
@@ -27,96 +34,127 @@
         </ul>
       </nav>
       <div class="user-block">
-        <a class="searh" href="#"></a>
-        <a class="login" href="#">Вход</a>
-        <a class="cart" href="#">Пусто</a>
+        <div class="search-product">
+          <div class="search-item">
+            <a class="searh" href="#"></a>
+          </div>
+          <div class="search-form">
+            <form action="/" method="get">
+              <input type="text" name="search">
+            </form>
+          </div>
+        </div>
+          <div class="door">
+            <div class="login-door">
+            <a class="login" href="#">Вход</a>
+          </div>
+          <div class="form-door"></div>
+            <form action="/" method="get">
+              <input type="text" name="login" placeholder="Электронная почта">
+              <input type="password" name="password" id="password-field" placeholder="Пароль">
+              <input type="submit" value="Войти">
+              <div class="other-data">
+                <a href="#">Забыли пароль</a>
+                <a href="#">Новая регистрация</a>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="cart-buy">
+          <a class="cart" href="#">Пусто</a>
+        </div>
       </div>
+      <section class="main-contact">
+        <p>С 10 до 20, ежедневно</p>
+        <p>8 812 450-25-25</p>
+      </section>
     </header>
 
+
     <main>
-      <div class="main-head">
-        <section class="main-contact">
-          <p>С 10 до 20, ежедневно</p>
-          <p>8 812 450-25-25</p>
-        </section>
-        <section class="product-show">
-          <!-- <img src="http://placehold.it/150x100"> фон?-->
-          <h1>Крем брюле и пломбир с малиновым джемом</h1>
+      <section class="product-show">
+        <h1>Крем брюле и пломбир с малиновым джемом</h1>
           <div class="slider-main">
             <a href="#" class="active"></a>
             <a href="#"></a>
             <a href="#"></a>
           </div>
           <a class="btn" href="#">Давайте оба!</a>
-        </section>
+       </section>
+
+      <div class="pleasure">
+        <div class="pleasure-item">
+          <h2>Малинка даром!</h2>
+          <p>
+            При покупке 2кг любого фруктового мороженого, добавим в ваш заказ банку малинового варенья бесплатно.
+          </p>
+          <a class="btn" href="#">Хочу варенье!</a>
+        </div>
+        <div class="pleasure-item">
+          <h2>Шоколадки даром!</h2>
+          <p>
+            При покупке 2кг пломбира, добавим в ваш заказ упаковку вкуснейшей шоколадной присыпки совершенно бесплатно.
+          </p>
+          <a class="btn" href="#">Хочу шоколадки!</a>
+        </div>
+        </div>
+
+      <div class="list-product">
+        <div class="product hit">
+          <img src="http://placehold.it/150x100">
+          <span class="hit">ХИТ</span>
+          <div class="price-item">
+            <span class="price">310</span>
+            <span class="ruble"></span>
+            <span class="weight">/кг</span>
+          </div>
+          <p>
+            Сливочное с апельсиновым джемом и цитрусовой стружкой
+          </p>
+        </div>
+        <div class="product hit">
+          <img src="http://placehold.it/150x100">
+          <span class="hit">ХИТ</span>
+          <div class="price-item">
+            <span class="price">380</span>
+            <span class="ruble"></span>
+            <span class="weight">/кг</span>
+          </div>
+          <p>
+            Сливочно-кофейное с кусочками шоколада
+          </p>
+        </div>
+        <div class="product hit">
+          <img src="http://placehold.it/150x100">
+          <span class="hit">ХИТ</span>
+          <div class="price-item">
+            <span class="price">355</span>
+            <span class="ruble"></span>
+            <span class="weight">/кг</span>
+          </div>
+          <p>
+            Сливочно-клубничное с присыпкой из белого шоколада
+          </p>
+        </div>
+        <div class="product hit">
+          <img src="http://placehold.it/150x100">
+          <span class="hit">ХИТ</span>
+          <div class="price-item">
+            <span class="price">415</span>
+            <span class="ruble"></span>
+            <span class="weight">/кг</span>
+          </div>
+          <p>
+            Сливочное крем-брбле с кармельной подливкой
+          </p>
+        </div>
       </div>
 
-      <div class="left main-block">
-        <h2>Малинка даром!</h2>
-        <p>
-          При покупке 2кг любого фруктового мороженого, добавим в ваш заказ банку малинового варенья бесплатно.
-        </p>
-        <a class="btn" href="#">Хочу варенье!</a>
-      </div>
 
-      <div class="right main-block">
-        <h2>Шоколадки даром!</h2>
-        <p>
-          При покупке 2кг пломбира, добавим в ваш заказ упаковку вкуснейшей шоколадной присыпки совершенно бесплатно.
-        </p>
-        <a class="btn" href="#">Хочу шоколадки!</a>
-      </div>
 
-      <div class="item-main">
-        <img src="http://placehold.it/150x100">
-        <div class="hit">ХИТ</div>
-        <div class="price-item">
-          <span class="price">380</span>
-          <img src="http://placehold.it/150x100">
-          <span class="weight">/кг</span>
-        </div>
-        <p>
-          Сливочное с апельсиновым джемом и цитрусовой стружкой
-        </p>
-      </div>
-      <div class="item-main 2">
-        <img src="http://placehold.it/150x100">
-        <div class="hit">ХИТ</div>
-        <div class="price-item">
-          <span class="price">380</span>
-          <img src="http://placehold.it/150x100">
-          <span class="weight">/кг</span>
-        </div>
-        <p>
-          Сливочно-кофейное с кусочками шоколада
-        </p>
-      </div>
-      <div class="item-main 3">
-        <img src="http://placehold.it/150x100">
-        <div class="hit">ХИТ</div>
-        <div class="price-item">
-          <span class="price">355</span>
-          <img src="http://placehold.it/150x100">
-          <span class="weight">/кг</span>
-        </div>
-        <p>
-          Сливочно-клубничное с присыпкой из белого шоколада
-        </p>
-      </div>
-      <div class="item-main 4">
-        <img src="http://placehold.it/150x100">
-        <div class="hit">ХИТ</div>
-        <div class="price-item">
-          <span class="price">415</span>
-          <img src="http://placehold.it/150x100">
-          <span class="weight">/кг</span>
-        </div>
-        <p>
-          Сливочное крем-брбле с кармельной подливкой
-        </p>
-      </div>
 
       <article class="features">
+        
         <h2>Магазин Глейси - это онлайн и офлайн магазин по
           продаже собственногопроизводства на развес
         </h2>
