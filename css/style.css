@@ -1,0 +1,22 @@
+body {
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+  font-weight: regular;
+  font-family: Roboto, Arial, sans-serif;;
+}
+h1 {
+  font-size: 60px;
+  line-height: 60.35px;
+  color: #ffffff;
+  font-weight: bold;
+}
+h2 {
+  font-size: 35px;
+  line-height: 41px;
+  color: #ffffff;
+  font-weight: bold;
+}
+.conteiner {
+  background: #849d8f;
+}
