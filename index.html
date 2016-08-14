@@ -10,19 +10,19 @@
 <body>
 
   <div class="conteiner">
-    <header class="main-header">
+    <header class="main-header clearfix">
       <div class="index-logo">
         <img src="img/logo.svg" width="154" height="64" alt="Глейси">
       </div>
       <nav class="main-navigation">
-        <ul>
-          <li><a href="#"></Каталог</a>
+        <ul class="main-menu">
+          <li><a href="#">Каталог</a>
             <ul>
               <li><a href="#">Новинки</a></li>
               <li><a href="#">Сливочное</a></li>
               <li><a href="#">Щербеты</a></li>
-              <li><a href="#">Фруктовый мед</a></li>
-              <li><a href="#">Мелории</a></li>
+              <li><a href="#">Фруктовый лед</a></li>
+              <li><a href="#">Мелорин</a></li>
             </ul>
           </li>
           <li>
@@ -36,36 +36,43 @@
       <div class="user-block">
         <div class="search-product">
           <div class="search-item">
-            <a class="searh" href="#"></a>
+            <a class="searh" href="#">
+              лог
+            </a>
           </div>
           <div class="search-form">
             <form action="/" method="get">
               <input type="text" name="search">
             </form>
           </div>
-        </div>
-          <div class="door">
+         </div>
+         <div class="door">
             <div class="login-door">
-            <a class="login" href="#">Вход</a>
+              <a class="login" href="#">
+                вход
+              </a>
+            </div>
+            <div class="form-door">
+              <form action="/" method="get">
+                <div class="login-block">
+                  <input type="text" name="login" placeholder="Электронная почта">
+                </div>
+                <div class="password-block">
+                  <input type="password" name="password" id="password-field" placeholder="Пароль">
+                </div>
+                <input type="submit" value="Войти">
+                <div class="other-data">
+                  <a href="#">Забыли пароль?</a>
+                  <a href="#">Новая регистрация</a>
+                </div>
+              </form>
+            </div>
           </div>
-          <div class="form-door"></div>
-            <form action="/" method="get">
-              <div class="login-block">
-                <input type="text" name="login" placeholder="Электронная почта">
-              </div>
-              <div class="password-block">
-                <input type="password" name="password" id="password-field" placeholder="Пароль">
-              </div>
-              <input type="submit" value="Войти">
-              <div class="other-data">
-                <a href="#">Забыли пароль?</a>
-                <a href="#">Новая регистрация</a>
-              </div>
-            </form>
+          <div class="cart-buy">
+            <a class="cart" href="#">
+              пусто
+            </a>
           </div>
-        </div>
-        <div class="cart-buy">
-          <a class="cart" href="#">Пусто</a>
         </div>
 
       <section class="main-contact">
@@ -88,7 +95,7 @@
           </div>
        </section>
 
-      <div class="pleasure">
+      <div class="pleasure clearfix">
         <div class="pleasure-item">
           <h2>Малинка даром!</h2>
           <p>
@@ -115,7 +122,7 @@
             <span class="weight">/кг</span>
           </div>
           <p>
-            Сливочное с апельсиновым джемом и цитрусовой стружкой
+            Сливочное с апельсиновым<br> джемом и цитрусовой стружкой
           </p>
         </div>
         <div class="product hit">
@@ -127,7 +134,7 @@
             <span class="weight">/кг</span>
           </div>
           <p>
-            Сливочно-кофейное с кусочками шоколада
+            Сливочно-кофейное с кусочками<br> шоколада
           </p>
         </div>
         <div class="product hit">
@@ -139,7 +146,7 @@
             <span class="weight">/кг</span>
           </div>
           <p>
-            Сливочно-клубничное с присыпкой из белого шоколада
+            Сливочно-клубничное с<br> присыпкой из белого шоколада
           </p>
         </div>
         <div class="product hit">
@@ -151,15 +158,15 @@
             <span class="weight">/кг</span>
           </div>
           <p>
-            Сливочное крем-брбле с кармельной подливкой
+            Сливочное крем-брбле с<br> кармельной подливкой
           </p>
         </div>
       </div>
 
-      <article class="features">
-        <h2>Магазин Глейси - это онлайн и офлайн магазин по
-          продаже собственногопроизводства на развес
-        </h2>
+      <article class="features clearfix">
+        <h3>Магазин Глейси - это онлайн и офлайн магазин по
+          продаже собственного<br> производства на развес
+        </h3>
         <div class="place-features">
           <div class="feature-ice">
             <span class="icon icon-ice"></span>
@@ -200,7 +207,7 @@
         </div>
       </article>
 
-      <div class="ours-news">
+      <div class="ours-news clearfix">
         <div class="news">
           <p>Новое в нашем блоге</p>
           <a href="#">10 способов сервировки
@@ -247,7 +254,7 @@
     </section>
   </div>
 
-  <div class="dark glass">
+  <div class="dark-glass">
     <div class="feedback">
       <a href="#">крестик</a>
       <h2>Мы обязятельно вам ответим!</h2>
