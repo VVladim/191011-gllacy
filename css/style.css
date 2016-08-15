@@ -23,17 +23,17 @@ h3{
 }
 
 .conteiner {
-  width:1144px;
+  width:1146px;
   min-height: 50px;
-  padding-left:28px;
-  padding-right:28px;
+  padding-left:27px;
+  padding-right:27px;
   padding-top:10px;
   background: #849d8f;
   padding-bottom:40px;
 }
 
 .main-header {
-  margin-bottom: 285px;
+  margin-bottom: 0px;
   background: gray;
   }
   .clearfix::after{
@@ -112,26 +112,36 @@ h3{
     width: 511px;
   }
   .list-product{
-
   }
+
+  .floor-item {
+  margin-bottom:50px;
+
+}
+
+
+
+
   .product {
-    display:inline-block;
-    verticaj-align:top;
+    float:left;
     width:267px;
     height:330px;
-    margin-right:21px;
+    margin-right:26px;
     position:relative;
     background:lightgray;
   }
   .product:last-child {
-    margin-right:0;
+    float:right;
+    margin-right: 0px;
   }
+
+
   .product .hit {
     position:absolute;
     top:10px;
   }
   .price-item {
-    position:absolute;
+    position: absolute;
     top:230px;
   }
   .features {
