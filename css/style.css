@@ -65,7 +65,7 @@ h3{
   .search-product, .door, .cart-buy {
     display:inline-block;
   }
-  .main-contact {
+  .main-contacts {
     position:absolute;
     left: 1010px;
     top:80px;
@@ -116,6 +116,7 @@ h3{
   }
   .product {
     display:inline-block;
+    verticaj-align:top;
     width:267px;
     height:330px;
     margin-right:21px;
@@ -181,4 +182,19 @@ h3{
     position: absolute;
     left:875px;
     top: 62px;
+  }
+  footer-page {
+    margin-top:15px;
+  }
+  .footer-social {
+    float:left;
+    width:267px;
+  }
+  .footer-menu {
+    float:left;
+    width: 560px;
+  }
+  .footer-info {
+    float:right;
+    width:267px;
   }
