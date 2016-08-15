@@ -45,6 +45,8 @@ h3{
   .index-logo {
     width:165px;
     float:left;
+    margin-left: -5px;
+    margin-top:-5px;
   }
 
   .main-menu ul, .search-form, .form-door {
@@ -76,25 +78,33 @@ h3{
     margin: -5px 0;
   }
   .product-show {
-    min-height:207px;
     background: lightgray;
-    text-align:center;
-    margin-bottom:40px;
+    margin-bottom:35px;
   }
   .product-show h1 {
-    width:664px;
+    width:680px;
     margin-left:auto;
     margin-right:auto;
-    margin-top: -7px;
-    text-align:center;
-    margin-bottom:27px;
   }
   .giv-both {
-    display:inline-block;
-    width:275px;
-    height:62px;
-    background: gray;
+    font-size: 32px;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right:auto;
+    width: 280px;
+    text-shadow: 5px 5px 0 0 #a0200b;
   }
+  .giv-both a {
+    text-decoration: none;
+    padding:12px 40px;
+    color:#fff;
+    border-radius:35px;
+    box-shadow: 0 2px 2px 1px rgba(172, 16, 0, 0.64);
+    text-shadow: 0 2px 5px  rgba(160, 32, 11, 0.76);
+    /*text-shadow: 30px 30px 1px #111111;*/
+    background-image: linear-gradient(#f26843, #e74b36);
+  }
+
   .pleasure {
     margin-bottom:40px;
   }
@@ -113,15 +123,9 @@ h3{
   }
   .list-product{
   }
-
   .floor-item {
   margin-bottom:50px;
-
 }
-
-
-
-
   .product {
     float:left;
     width:267px;
@@ -134,8 +138,6 @@ h3{
     float:right;
     margin-right: 0px;
   }
-
-
   .product .hit {
     position:absolute;
     top:10px;
@@ -157,7 +159,6 @@ h3{
   }
   .ours-news {
     background:lightgray;
-
   }
 
   .ours-news .news {
@@ -193,8 +194,10 @@ h3{
     left:875px;
     top: 62px;
   }
-  footer-page {
+  .footer-page {
     margin-top:15px;
+    border-top: 1px solid #fff;
+    color:#fff;
   }
   .footer-social {
     float:left;
@@ -207,4 +210,39 @@ h3{
   .footer-info {
     float:right;
     width:267px;
+  }
+  .footer-page a {
+    color: fff;
+  }
+  .bread-rooms {
+    margin: 0;
+    padding: 0;
+
+  }
+  .bread-rooms li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size:14px;
+    line-height:16px;
+    color: #fff;
+
+
+  }
+  .bread-rooms li a {
+    color: #fff;
+  }
+  .filter-block h2 {
+    color:#fff;
+  }
+  .sorting-name,
+  .sorting-price,
+  .sorting-character,
+  .sorting-taste,
+  .sending {
+    display: inline-block;
+  }
+  .paginator {
+    margin-left: 940px;
   }
