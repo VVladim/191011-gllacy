@@ -1,0 +1,184 @@
+body {
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+  font-weight: regular;
+  font-family: Roboto, Arial, sans-serif;
+}
+h1 {
+  font-size: 60px;
+  line-height: 60.35px;
+  /*color: #ffffff;*/
+  font-weight: bold;
+}
+h2 {
+  font-size: 35px;
+  line-height: 41px;
+  /*color: #ffffff;*/
+  font-weight: bold;
+}
+h3{
+  font-size:24px;
+  line-height: 30px;
+}
+
+.conteiner {
+  width:1144px;
+  min-height: 50px;
+  padding-left:28px;
+  padding-right:28px;
+  padding-top:10px;
+  background: #849d8f;
+  padding-bottom:40px;
+}
+
+.main-header {
+  margin-bottom: 285px;
+  background: gray;
+  }
+  .clearfix::after{
+    content: "";
+    display:table;
+    clear:both;
+  }
+
+  .index-logo {
+    width:165px;
+    float:left;
+  }
+
+  .main-menu ul, .search-form, .form-door {
+    display: none;
+  }
+  .main-navigation {
+    float: left;
+    width:400px;
+    height:115px;
+    /*только для сетки*/
+  }
+  .main-menu>li {
+    display: inline-block;
+  }
+  .user-block {
+    float: right;
+  }
+  .search-product, .door, .cart-buy {
+    display:inline-block;
+  }
+  .main-contact {
+    position:absolute;
+    left: 1010px;
+    top:80px;
+    background:green;
+    width: 170px;
+  }
+  .main-contact p {
+    margin: -5px 0;
+  }
+  .product-show {
+    min-height:207px;
+    background: lightgray;
+    text-align:center;
+    margin-bottom:40px;
+  }
+  .product-show h1 {
+    width:664px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: -7px;
+    text-align:center;
+    margin-bottom:27px;
+  }
+  .giv-both {
+    display:inline-block;
+    width:275px;
+    height:62px;
+    background: gray;
+  }
+  .pleasure {
+    margin-bottom:40px;
+  }
+  .pleasure-item:first-child {
+    float:left;
+  }
+  .pleasure-item {
+    float: right;
+    width: 560px;
+    height: 226px;
+    background: lightgray;
+
+  }
+  .pleasure-item p{
+    width: 511px;
+  }
+  .list-product{
+
+  }
+  .product {
+    display:inline-block;
+    width:267px;
+    height:330px;
+    margin-right:21px;
+    position:relative;
+    background:lightgray;
+  }
+  .product:last-child {
+    margin-right:0;
+  }
+  .product .hit {
+    position:absolute;
+    top:10px;
+  }
+  .price-item {
+    position:absolute;
+    top:230px;
+  }
+  .features {
+    height: 305px;
+    background:lightgray;
+    margin-bottom:40px;
+  }
+  .place-features {
+    float:left;
+  }
+  .place-features:last-child{
+    float:right;
+  }
+  .ours-news {
+    background:lightgray;
+
+  }
+
+  .ours-news .news {
+    width:560px;
+    height:220px;
+    float:left;
+    background:gray;
+    border-radius: 15px;
+  }
+  .ours-news .subscription-block {
+    float:right;
+    width:560px;
+    height:220px;
+    background:gray;
+    border-radius: 15px;
+  }
+  .main-map {
+    width: 1200px;;
+    height:430px;
+    background:lightgray;
+    margin-top: -16px;
+    position: relative;
+
+  }
+  .dark-glass{
+    display: none;
+  }
+  .map-contacts {
+    width:300px;
+    height:305px;
+    background: #fff;
+    position: absolute;
+    left:875px;
+    top: 62px;
+  }
