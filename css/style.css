@@ -25,11 +25,11 @@ h3{
 .conteiner {
   width:1146px;
   /*min-height: 50px;*/
-  padding-left:27px;
-  padding-right:27px;
-  padding-top:10px;
+  padding-left: 27px;
+  padding-right: 27px;
+  padding-top: 10px;
   background: #849d8f;
-  padding-bottom:40px;
+  
 }
 
 .main-header {
@@ -160,8 +160,11 @@ h3{
   .list-product{
   }
   .floor-item {
-  margin-bottom:14px;
+  margin-bottom:15px;
 }
+  .catalog-item {
+    margin-bottom: 64px;
+  }
   .product {
     float:left;
     width:267px;
@@ -232,7 +235,10 @@ h3{
   }
 
 
-
+   footer {
+     margin-top: 28px;
+     border-top:1px solid white;
+   }
 
   .footer-social {
     float:left;
@@ -252,7 +258,6 @@ h3{
   .bread-rooms {
     margin: 0;
     padding: 0;
-
   }
   .bread-rooms li {
     display: inline-block;
@@ -336,5 +341,9 @@ h3{
   }
 
   .paginator {
-    margin-left: 940px;
+    margin-left: 954px;
+    width: 193px;
+    height: 26px;
+    background: gray;
+    margin-bottom: 28px;
   }
