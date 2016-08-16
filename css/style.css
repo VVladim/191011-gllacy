@@ -317,6 +317,24 @@ h3{
     background: gray;
     width:411px;
   }
+  .alter-taste p{
+    background: lightgray;
+    margin: 0 0;
+    padding:0 0;
+    font-size:14px;
+    font-weight:medium;
+    line-height:16px;
+    margin-left:14px;
+  }
+  .sorting-taste {
+    background: gray;
+    width: 701px;
+    margin-right: 8px;
+  }
+  .alter .sending {
+    width: 145px;
+  }
+
   .paginator {
     margin-left: 940px;
   }
