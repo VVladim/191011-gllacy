@@ -24,7 +24,7 @@ h3{
 
 .conteiner {
   width:1146px;
-  min-height: 50px;
+  /*min-height: 50px;*/
   padding-left:27px;
   padding-right:27px;
   padding-top:10px;
@@ -194,13 +194,13 @@ h3{
     left:875px;
     top: 62px;
   }
-  .footer-page {
-    margin-top:15px;
-    border-top: 1px solid #fff;
-    color:#fff;
+
+
+  . {
+    background: gray;
   }
   .footer-social {
-    float:left;
+    /*float:left;*/
     width:267px;
   }
   .footer-menu {
@@ -211,7 +211,7 @@ h3{
     float:right;
     width:267px;
   }
-  .footer-page a {
+  footer a {
     color: fff;
   }
   .bread-rooms {
