@@ -2,8 +2,15 @@ body {
   font-size: 16px;
   line-height: 22px;
   color: #000000;
-  font-weight: regular;
+  font-weight: 400;
   font-family: Roboto, Arial, sans-serif;
+  padding:0;
+  margin:0;
+  }
+}
+html {
+  padding:0;
+  margin:0;
 }
 h1 {
   font-size: 60px;
@@ -24,11 +31,12 @@ h3{
 
 .conteiner {
   width:1146px;
-  /*min-height: 50px;*/
   padding-left: 27px;
   padding-right: 27px;
   padding-top: 10px;
   background: #849d8f;
+  margin-left: auto;
+  margin-right: auto;
 
 }
 
@@ -215,23 +223,26 @@ h3{
     border-radius: 15px;
   }
   .main-map {
-    width: 1200px;;
     height:430px;
-    background:lightgray;
-    margin-top: -16px;
-    position: relative;
-
+    background-image: url("../img/layer2.jpg");
   }
   .dark-glass{
     display: none;
   }
+  .wrapp {
+    height: 430px;
+    width: 1144px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
   .map-contacts {
     width:300px;
     height:305px;
-    background: #fff;
+    background: #fff;;
     position: absolute;
-    left:875px;
     top: 62px;
+    right:0;
   }
 
 
