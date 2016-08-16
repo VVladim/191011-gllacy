@@ -29,7 +29,7 @@ h3{
   padding-right: 27px;
   padding-top: 10px;
   background: #849d8f;
-  
+
 }
 
 .main-header {
@@ -110,18 +110,18 @@ h3{
   .pleasure-item p, .pleasure-item h2 {
     color:white;
   }
-  .pleasure-item:first-child {
-    float:left;
-  }
   .pleasure-item {
-    float: right;
+    float: left;
     width: 560px;
     height: 226px;
     position: relative;
-    border-radius:12px;
-    background-image: url("Малиновый фон.jpg") width:560px height:229px no-repeat;
+    border-radius:11px;
+    background-image: url("../img/bg1.jpg");
 }
-
+.pleasure-item:last-child {
+  float:right;
+  background-image: url("../img/bg2.jpg");
+}
   .present {
     margin-left: 18px;
     margin-top: -12px;
