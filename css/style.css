@@ -81,12 +81,12 @@ h3{
     background: lightgray;
     margin-bottom:35px;
   }
-  .product-show h1 {
+  .product-show .cream {
     width:680px;
     margin-left:auto;
     margin-right:auto;
   }
-  .giv-both {
+  .give-both {
     font-size: 32px;
     font-weight: bold;
     margin-left: auto;
@@ -94,19 +94,21 @@ h3{
     width: 280px;
     text-shadow: 5px 5px 0 0 #a0200b;
   }
-  .giv-both a {
+  .give-both a {
     text-decoration: none;
     padding:12px 40px;
     color:#fff;
     border-radius:35px;
     box-shadow: 0 2px 2px 1px rgba(172, 16, 0, 0.64);
     text-shadow: 0 2px 5px  rgba(160, 32, 11, 0.76);
-    /*text-shadow: 30px 30px 1px #111111;*/
     background-image: linear-gradient(#f26843, #e74b36);
   }
 
   .pleasure {
     margin-bottom:40px;
+  }
+  .pleasure-item p, .pleasure-item h2 {
+    color:white;
   }
   .pleasure-item:first-child {
     float:left;
@@ -115,21 +117,55 @@ h3{
     float: right;
     width: 560px;
     height: 226px;
-    background: lightgray;
+    position: relative;
+    border-radius:12px;
+    background-image: url("Малиновый фон.jpg") width:560px height:229px no-repeat;
+}
 
+  .present {
+    margin-left: 18px;
+    margin-top: -12px;
   }
-  .pleasure-item p{
+
+
+  .pleasure-item p {
     width: 511px;
+    margin-left: 18px;
+    margin-top:-14px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 22px;
+    color:fff;
+  }
+    .give-present {
+      position:absolute;
+      right: 20px;
+      bottom: 30px;
+
+    }
+
+
+    .pleasure-item a {
+    font-size:18px;
+    line-heught:24px;
+    font-weight:bold;
+    text-decoration: none;
+    padding:10px 23px;
+    color:#fff;
+    border-radius:35px;
+    box-shadow: 0 2px 2px 1px rgba(172, 16, 0, 0.64);
+    text-shadow: 0 2px 5px  rgba(160, 32, 11, 0.76);
+    background-image: linear-gradient(#f26843, #e74b36);
   }
   .list-product{
   }
   .floor-item {
-  margin-bottom:50px;
+  margin-bottom:14px;
 }
   .product {
     float:left;
     width:267px;
-    height:330px;
+    height:340px;
     margin-right:26px;
     position:relative;
     background:lightgray;
@@ -196,11 +232,10 @@ h3{
   }
 
 
-  . {
-    background: gray;
-  }
+
+
   .footer-social {
-    /*float:left;*/
+    float:left;
     width:267px;
   }
   .footer-menu {
@@ -227,8 +262,6 @@ h3{
     font-size:14px;
     line-height:16px;
     color: #fff;
-
-
   }
   .bread-rooms li a {
     color: #fff;
@@ -236,12 +269,53 @@ h3{
   .filter-block h2 {
     color:#fff;
   }
+  .filter-block p,
   .sorting-name,
   .sorting-price,
   .sorting-character,
   .sorting-taste,
   .sending {
     display: inline-block;
+  }
+  .alter-name {
+    background: gray;
+    margin-bottom: 2px;
+  }
+  .alter-name p {
+    background: lightgray;
+    margin: 0 0;
+    padding:0 0;
+    font-size:14px;
+    font-weight:medium;
+    line-height:16px;
+
+
+  }
+  .alter-name p:first-child {
+    margin-left:14px;
+    margin-right: 122px;
+  }
+  .alter-name p:first-child+p {
+    margin-right: 67px;
+  }
+  .alter {
+    background:lightgray;
+    margin-bottom:5px;
+  }
+  .sorting-name {
+     width:190px;
+     height:34px;
+     background: gray;
+     margin-right:8px;
+  }
+  .sorting-price {
+    width: 220px;
+    background: gray;
+    margin-right:8px;
+  }
+  .sorting-character {
+    background: gray;
+    width:411px;
   }
   .paginator {
     margin-left: 940px;

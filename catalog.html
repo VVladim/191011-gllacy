@@ -87,21 +87,22 @@
 
         <div class="filter-block">
           <h2>Сливочное мороженое</h2>
-          <form action="/" method="post">
+          <form action="/" method="post" class="data">
+            <div class="alter-name">
+              <p>Сортировка:</p>
+              <p>Цена: 100руб. -500руб.</p>
+              <p>Жирность</p>
+            </div>
             <div class="alter">
               <div class="sorting-name">
-                <p>Сортировка:</p>
                 <select name="fame">
                   <option value="popular">По популярности</option>
                 </select>
               </div>
               <div class="sorting-price">
-                <p>Цена: 100руб. -500руб.</p>
                 <input type="range" min="100" max="500" step="50">
               </div>
               <div class="sorting-character">
-                <p>Жирность</p>
-
                 <label>
                   <input type="radio" name="placemark" value="0%"> 0%
                 </label>
