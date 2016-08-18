@@ -1,22 +1,16 @@
+
 body {
   font-size: 16px;
   line-height: 22px;
   color: #000000;
-  font-weight: 400;
+  font-weight: regular;
   font-family: Roboto, Arial, sans-serif;
-  padding:0;
-  margin:0;
-  }
-}
-html {
-  padding:0;
-  margin:0;
 }
 h1 {
-  font-size: 60px;
-  line-height: 60.35px;
-  /*color: #ffffff;*/
-  font-weight: bold;
+   font-size: 60px;
+   line-height: 60.35px;
+   /*color: #ffffff;*/
+   font-weight: bold;
 }
 h2 {
   font-size: 35px;
@@ -30,113 +24,119 @@ h3{
 }
 
 .conteiner {
-  width:1146px;
-  padding-left: 27px;
-  padding-right: 27px;
-  padding-top: 10px;
-  background: #849d8f;
-  margin-left: auto;
-  margin-right: auto;
-
+   width:1146px;
+   min-height: 50px;
+   padding-left:27px;
+   padding-right:27px;
+   padding-top:10px;
+   background: #849d8f;
 }
 
 .main-header {
-  margin-bottom: 0px;
+  margin-bottom: 285px;
   background: gray;
-  }
+}
   .clearfix::after{
     content: "";
     display:table;
     clear:both;
-  }
+}
+   .index-logo {
+     width:165px;
+   float:left;
+ }
 
-  .index-logo {
-    width:165px;
-    float:left;
-    margin-left: -5px;
-    margin-top:-5px;
-  }
+.main-menu ul,
+.search-form,
+.form-door {
+  display: none;
+}
+.main-navigation {
+  float: left;
+  width:400px;
 
-  .main-menu ul, .search-form, .form-door {
-    display: none;
-  }
-  .main-navigation {
-    float: left;
-    width:400px;
-    height:115px;
-    /*только для сетки*/
-  }
-  .main-menu>li {
-    display: inline-block;
-  }
-  .user-block {
-    float: right;
-  }
-  .search-product, .door, .cart-buy {
-    display:inline-block;
-  }
-  .main-contacts {
-    position:absolute;
-    left: 1010px;
-    top:80px;
-    background:green;
-    width: 170px;
-  }
-  .main-contact p {
-    margin: -5px 0;
-  }
-  .product-show {
-    background: lightgray;
-    margin-bottom:35px;
-  }
-  .product-show .cream {
+     /*только для сетки*/
+   }
+   .main-menu>li {
+     display: inline-block;
+   }
+   .user-block {
+     float: right;
+ }
+ .search-product,
+ .door,
+ .cart-buy {
+   display:inline-block;
+ }
+ .main-contact {
+     position:absolute;
+     left: 1010px;
+   top:80px;
+     background:green;
+     width: 170px;
+   }
+   .main-contact p {
+     margin: -5px 0;
+   }
+
+   .product-show {
+     min-height:207px;
+     background: lightgray;
+     text-align:center;
+     margin-bottom:40px;
+   }
+   .product-show .cream {
     width:680px;
     margin-left:auto;
     margin-right:auto;
   }
-  .give-both {
-    font-size: 32px;
-    font-weight: bold;
-    margin-left: auto;
-    margin-right:auto;
-    width: 280px;
-    text-shadow: 5px 5px 0 0 #a0200b;
+  .list-product {
+    background:gray;
   }
-  .give-both a {
+  .product {
+    float:left;
+    width:267px;
+    height:340px;
+    background: lightgray;
+  }
+   .giv-both {
+     display:inline-block;
+     width:275px;
+     height:62px;
+     background: gray;
+   }
+   .give-both a {
+     font-size:32px;
+     line-heught:44px;
+     font-weight:bold;
     text-decoration: none;
     padding:12px 40px;
     color:#fff;
     border-radius:35px;
     box-shadow: 0 2px 2px 1px rgba(172, 16, 0, 0.64);
     text-shadow: 0 2px 5px  rgba(160, 32, 11, 0.76);
+    /*text-shadow: 30px 30px 1px #111111;*/
     background-image: linear-gradient(#f26843, #e74b36);
   }
+   .pleasure-item p,
+   .pleasure-item h2 {
+   color:white;
+ }
+   .pleasure {
+     margin-bottom: 40px;
+   }
+   .pleasure-item:first-child {
+     float:left;
+   }
+   .pleasure-item {
+     float: right;
+     width: 560px;
+     height: 226px;
+     background: gray;
+     position: relative;
+   }
 
-  .pleasure {
-    margin-bottom:40px;
-  }
-  .pleasure-item p, .pleasure-item h2 {
-    color:white;
-  }
-  .pleasure-item {
-    float: left;
-    width: 560px;
-    height: 226px;
-    position: relative;
-    border-radius:11px;
-    background-image: url("../img/bg1.jpg");
-}
-.pleasure-item:last-child {
-  float:right;
-  background-image: url("../img/bg2.jpg");
-}
-  .present {
-    margin-left: 18px;
-    margin-top: -12px;
-  }
-
-
-  .pleasure-item p {
+   .pleasure-item p {
     width: 511px;
     margin-left: 18px;
     margin-top:-14px;
@@ -145,216 +145,34 @@ h3{
     line-height: 22px;
     color:fff;
   }
-    .give-present {
-      position:absolute;
-      right: 20px;
-      bottom: 30px;
+   .pleasure-item a {
+   font-size:18px;
+   line-heught:24px;
+   font-weight:bold;
+   text-decoration: none;
+   padding:10px 23px;
+   color:#fff;
+   border-radius:35px;
+   box-shadow: 0 2px 2px 1px rgba(172, 16, 0, 0.64);
+   text-shadow: 0 2px 5px  rgba(160, 32, 11, 0.76);
+   background-image: linear-gradient(#f26843, #e74b36);
+ }
 
-    }
-
-
-    .pleasure-item a {
-    font-size:18px;
-    line-heught:24px;
-    font-weight:bold;
-    text-decoration: none;
-    padding:10px 23px;
-    color:#fff;
-    border-radius:35px;
-    box-shadow: 0 2px 2px 1px rgba(172, 16, 0, 0.64);
-    text-shadow: 0 2px 5px  rgba(160, 32, 11, 0.76);
-    background-image: linear-gradient(#f26843, #e74b36);
-  }
-  .list-product{
-  }
-  .floor-item {
-  margin-bottom:15px;
-}
-  .catalog-item {
-    margin-bottom: 64px;
-  }
-  .product {
-    float:left;
-    width:267px;
-    height:340px;
-    margin-right:26px;
-    position:relative;
-    background:lightgray;
-  }
-  .product:last-child {
-    float:right;
-    margin-right: 0px;
-  }
-  .product .hit {
-    position:absolute;
-    top:10px;
-  }
-  .price-item {
-    position: absolute;
-    top:230px;
-  }
-  .features {
-    height: 305px;
-    background:lightgray;
-    margin-bottom:40px;
-  }
-  .place-features {
-    float:left;
-  }
-  .place-features:last-child{
-    float:right;
-  }
-  .ours-news {
-    background:lightgray;
-  }
-
-  .ours-news .news {
-    width:560px;
-    height:220px;
-    float:left;
-    background:gray;
-    border-radius: 15px;
-  }
-  .ours-news .subscription-block {
-    float:right;
-    width:560px;
-    height:220px;
-    background:gray;
-    border-radius: 15px;
-  }
-  .main-map {
-    height:430px;
-    background-image: url("../img/layer2.jpg");
-  }
-  .dark-glass{
-    display: none;
-  }
-  .wrapp {
-    height: 430px;
-    width: 1144px;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-  }
-  .map-contacts {
-    width:300px;
-    height:305px;
-    background: #fff;;
-    position: absolute;
-    top: 62px;
-    right:0;
-  }
-
-
-   footer {
-     margin-top: 28px;
-     border-top:1px solid white;
+   .give-present {
+     position: absolute;
+     right: 20px;
+     bottom: 30px;
+    .product {
+     display:inline-block;
+     width:267px;
+     height:330px;
+     margin-right:21px;
+     position:relative;
+     background:lightgray;
    }
-
-  .footer-social {
-    float:left;
-    width:267px;
-  }
-  .footer-menu {
-    float:left;
-    width: 560px;
-  }
-  .footer-info {
-    float:right;
-    width:267px;
-  }
-  footer a {
-    color: fff;
-  }
-  .bread-rooms {
-    margin: 0;
-    padding: 0;
-  }
-  .bread-rooms li {
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    font-size:14px;
-    line-height:16px;
-    color: #fff;
-  }
-  .bread-rooms li a {
-    color: #fff;
-  }
-  .filter-block h2 {
-    color:#fff;
-  }
-  .filter-block p,
-  .sorting-name,
-  .sorting-price,
-  .sorting-character,
-  .sorting-taste,
-  .sending {
-    display: inline-block;
-  }
-  .alter-name {
-    background: gray;
-    margin-bottom: 2px;
-  }
-  .alter-name p {
-    background: lightgray;
-    margin: 0 0;
-    padding:0 0;
-    font-size:14px;
-    font-weight:medium;
-    line-height:16px;
-
-
-  }
-  .alter-name p:first-child {
-    margin-left:14px;
-    margin-right: 122px;
-  }
-  .alter-name p:first-child+p {
-    margin-right: 67px;
-  }
-  .alter {
-    background:lightgray;
-    margin-bottom:5px;
-  }
-  .sorting-name {
-     width:190px;
-     height:34px;
-     background: gray;
-     margin-right:8px;
-  }
-  .sorting-price {
-    width: 220px;
-    background: gray;
-    margin-right:8px;
-  }
-  .sorting-character {
-    background: gray;
-    width:411px;
-  }
-  .alter-taste p{
-    background: lightgray;
-    margin: 0 0;
-    padding:0 0;
-    font-size:14px;
-    font-weight:medium;
-    line-height:16px;
-    margin-left:14px;
-  }
-  .sorting-taste {
-    background: gray;
-    width: 701px;
-    margin-right: 8px;
-  }
-  .alter .sending {
-    width: 145px;
-  }
-
-  .paginator {
-    margin-left: 954px;
-    width: 193px;
-    height: 26px;
-    background: gray;
-    margin-bottom: 28px;
-  }
+   .product {
+     float:left:
+     width:267px;
+     height:340px;
+     bacground:gray;
+   }
