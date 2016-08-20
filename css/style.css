@@ -43,7 +43,8 @@ h3{
 }
 
 .main-header {
-  background: gray;
+  /*background: gray;*/
+  margin-bottom: 272px;
 }
 .clearfix::after{
    content: "";
@@ -51,15 +52,17 @@ h3{
    clear:both;
 }
 .index-logo {
-   /*margin-top:5px;*/
+   margin-top:5px;
    margin-left:-5px;
    float:left;
-   margin-right: 15px;
+   margin-right: 17px;
+
 }
 .main-menu {
   margin: 0;
   padding: 0;
-  bacground:green;
+  /*background:green;*/
+  margin-top: 23px;
 }
 
 
@@ -70,7 +73,77 @@ h3{
    margin: 0;
    padding: 0;
 }
-.sub-menu,
+
+.main-menu>li>a {
+  display:block;
+  font-weight: 700;
+  color: #ffffff;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 13px;
+  padding-right: 13px;
+  border-radius:20px;
+  /*background: #fff;*/
+}
+
+.main-menu > li:hover .sub-menu {
+    display: block;
+}
+.main-menu > li > a:hover {
+  background: #f7f6f3;
+  text-decoration: none;
+  color: #333333;
+}
+
+
+.sub-menu {
+  display: none;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background: #f8f7f4;
+  width: 143px;
+  top: 36px;
+  left: -8px;
+  border-radius:5px;
+}
+
+
+.sub-menu li {
+  padding-top: 1px;
+  padding-bottom: 4px;
+}
+.sub-menu Li a {
+  display:block;
+  font-size: 14px;
+  line-height: 16px;
+  text-decoration: none;
+  color: #323232;
+  padding-left: 19px;
+  padding-right: 22px;
+  /*background: lightgray;*/
+  padding-top: 6px;
+  padding-bottom: 6px;
+  }
+.sub-menu li a:hover {
+  backgound: red;
+}
+
+.sub-menu li:first-child a {
+  font-weight: 700;
+  border-bottom:1px solid #d1d0ce;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.sub-menu li:first-child {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.sub-menu li:last-child {
+  padding-bottom: 6px;
+}
+
 .search-form,
 .form-door {
   display: none;
@@ -215,7 +288,7 @@ main {
   top: 190px;
 }
 .features {
-    background-image: url("../img/cell.jpg.");
+    background-image: url("../img/cell.png.");
     margin-bottom: 40px;
     padding-top:4px;
     padding-bottom:2px;
@@ -326,7 +399,7 @@ input[type="button"] {
 
 .main-map {
      height:430px;
-     background-image: url("../img/layer3.png.");
+     background-image: url("../img/check.png.");
      margin-top:0px;
      position: relative;
 }
