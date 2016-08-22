@@ -545,7 +545,7 @@ main {
   top: 190px;
 }
 .features {
-    background-image: url("../img/cell.jpg.");
+    background-image: url("../img/cell.jpg");
     margin-bottom: 40px;
     padding-top:4px;
     padding-bottom:2px;
@@ -732,6 +732,7 @@ input[type="button"] {
  .sorting-name,
  .sorting-price,
  .sorting-character,
+ .sorting-taste,
 .sending {
    display: inline-block;
  }
