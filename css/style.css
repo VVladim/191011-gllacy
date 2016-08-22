@@ -188,7 +188,7 @@ h3{
 
 .main-header {
   /*background: gray;*/
-  margin-bottom: 272px;
+  /*margin-bottom: 272px;*/
 }
 .clearfix::after{
    content: "";
@@ -200,7 +200,6 @@ h3{
    margin-left:-5px;
    float:left;
    margin-right: 17px;
-
 }
 .main-menu {
   margin: 0;
@@ -434,6 +433,7 @@ main {
      text-align:center;
      margin-bottom:40px;
      height: 195px;
+     margin-top: 272px;
    }
    .product-show h1 {
      width:670px;
@@ -656,7 +656,7 @@ input[type="button"] {
 
 .main-map {
      height:430px;
-     background-image: url("../img/layer3.png.");
+     background-image: url("../img/check.png");
      margin-top:0px;
      position: relative;
 }
@@ -714,3 +714,95 @@ input[type="button"] {
    font-size:12px;
    lineheight:18px;
 }
+
+.bread-rooms {
+    margin: 0;
+    padding: 0;
+  }
+  .bread-rooms li {
+    display: inline-block;
+  }
+.bread-rooms li a {
+    color: #fff;
+  }
+    .filter-block h2 {
+   color:#fff;
+ }
+.filter-block p,
+ .sorting-name,
+ .sorting-price,
+ .sorting-character,
+.sending {
+   display: inline-block;
+ }
+ .alter-name {
+   background: gray;
+   margin-bottom: 2px;
+ }
+ .alter-name p {
+   background: lightgray;
+   margin: 0 0;
+   padding:0 0;
+   font-size:14px;
+   font-weight:medium;
+   line-height:16px;
+ }
+
+
+
+ .alter-name p:first-child {
+   margin-left:14px;
+   margin-right: 122px;
+ }
+ .alter-name p:first-child+p {
+   margin-right: 67px;
+ }
+ .alter {
+   background:lightgray;
+   margin-bottom:5px;
+ }
+ .sorting-name {
+    width:190px;
+    height:34px;
+    background: gray;
+    margin-right:8px;
+ }
+ .sorting-price {
+   width: 220px;
+   background: gray;
+   margin-right:8px;
+ }
+ .sorting-character {
+   background: gray;
+   width:411px;
+ }
+ .alter-taste p {
+    background: lightgray;
+    margin: 0 0;
+    padding:0 0;
+    font-size:14px;
+    font-weight:medium;
+    line-height:16px;
+    margin-left:14px;
+  }
+  .sorting-taste {
+    background: gray;
+    width: 701px;
+    margin-right: 8px;
+  }
+  .floor-item {
+  margin-bottom: 15px;
+}
+  .alter .sending {
+    width: 145px;
+  }
+  .catalog-item {
+  margin-bottom: 64px;
+}
+ .paginator {
+   margin-left: 954px;
+    width: 193px;
+    height: 26px;
+    background: gray;
+    margin-bottom: 28px;
+ }
