@@ -247,7 +247,7 @@ h3{
   display: inline-block;
   vertical-align: top;
   padding: 7px 34px;
-  padding-left: 45px;
+  padding-left: 42px;
   font-size: 16px;
   line-height: 18px;
   color: #fefefe;
@@ -260,21 +260,36 @@ h3{
   content: "";
   position: absolute;
   top:6px;
-  left:16px;
+  left:13px;
   width: 21px;
   height: 19px;
   background: transparent url("../img/cart.svg") no-repeat;
 }
 
-
-
 .main-contacts {
     position: absolute;
     right: 0;
-    top: 180px;
-    background: green;
+    top: 36px;
+    /*background: red;*/
     width: 170px;
 }
+ .time {
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 700;
+    text-align: right;
+    color: #ffffff;
+}
+.tel {
+  font-size: 22px;
+  line-height: 24px;
+    font-weight: 700;
+    text-align: right;
+    color: #ffffff;
+    margin-top: -10px;
+}
+
+
 main {
   padding-bottom: 40px;
   background: #849d8f;
