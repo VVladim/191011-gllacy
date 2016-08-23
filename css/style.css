@@ -9,7 +9,7 @@ body {
   line-height: 22px;
   color: #000;
   font-weight: 400;
-  font-family: "Roboto", "Arial"cursive;, sans-serif;
+  font-family: "Roboto", "Arial", sans-serif;
   margin-top:0;
   margin-bottom:0;
   margin-left: auto;
@@ -58,7 +58,6 @@ h3{
   z-index :3;
 }*/
 .site-wrapper {
-  font-size: 18px;
   line-height: 1.2;
   min-width: 940px;
   background-color: #849d8f;
@@ -106,7 +105,7 @@ h3{
   display: inline-block;
   padding: 12px 50px;
 
-  font-weight: 600;
+  font-weight: 700;
   font-size: 31px;
   line-height: 41px;
   vertical-align: top;
@@ -522,7 +521,7 @@ main {
   bottom: 30px;
 }
 .list-product {
-  background: gray;
+  /*background: gray;*/
   margin-bottom: 20px;
 }
 
@@ -533,7 +532,8 @@ main {
     height:340px;
     margin-right:26px;
     position:relative;
-    background:lightgray;
+    /*background:lightgray;*/
+    text-align: center;
 }
 .product:last-child {
     float: right;
@@ -541,11 +541,38 @@ main {
 }
   .product .hit {
     position: absolute;
-    top: 10px;
+    top: 0px;
+    left:0;
+}
+span.hit {
+    background: red;
+    color: white;
+    width: 61px;
+    height: 61px;
+    border-radius: 50%;
+    line-height: 61px;
+    text-align: center;
+    font-size: 0;
+    background:  #ffffff url("../img/hit.png") no-repeat center;
 }
 .price-item {
-  position: absolute;
-  top: 190px;
+    position: absolute;
+    top: 215px;
+}
+.price-item .price {
+    font-size: 45px;
+    line-height: 45px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.price-item .weight {
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.product a {
+color: #ffffff;
 }
 .features {
     background-image: url("../img/cell.jpg");
@@ -646,12 +673,12 @@ span.icon-thermometer {
    background-image: url("../img/Strawberry.jpg.");
    border-radius: 15px;
    padding-left: 20px;
-   padding-top: 6px;
-   padding-bottom: 82px;
+   padding-top: 8px;
+   padding-bottom: 81px;
 }
 .news p {
    font-weight: 400;
-   margin-bottom: 4px;
+   margin-bottom: 6px;
 }
 .news a {
    font-size: 24px;
@@ -664,9 +691,11 @@ span.icon-thermometer {
 }
 .decoration {
   float: right;
-   background-image: url("../img/post.png.");
-   width: 560px;
-   height:220px;
+  padding-left: 5px;
+  padding-top: 5px;
+   background-image: url("../img/postback.png");
+   width: 555px;
+   height:214px;
    border-radius: 15px;
    position: relative;
 }
@@ -677,9 +706,9 @@ span.icon-thermometer {
    border-radius: 15px;
    padding-top: 12px;
    padding-left: 20px;
-   position: absolute;
+   /*position: absolute;
    right:5px;
-   bottom: 5px;
+   bottom: 5px;*/
 
 }
 .subscription-block p {
@@ -693,7 +722,7 @@ span.icon-thermometer {
 }
 .subscription {
   width: 365px;
-  margin-right:12px;
+  margin-right:11px;
 }
 .subscription-block input[type="text"] {
     width: 100%;
