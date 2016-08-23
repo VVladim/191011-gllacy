@@ -661,10 +661,10 @@ input[type="button"] {
 .collback .btn {
   font-size:18px;
   line-heught:24px;
-  font-weight:bold;
+  font-weight: bold;
   text-decoration: none;
   padding:10px 28px;
-  color:#fff;
+  color:#ffffff;
   border-radius:35px;
   box-shadow: 0 2px 2px 1px rgba(172, 16, 0, 0.64);
   text-shadow: 0 2px 5px  rgba(160, 32, 11, 0.76);
@@ -678,17 +678,46 @@ input[type="button"] {
     width: 267px;
     margin-right: 132px;
 }
+.social-btn {
+    display: inline-block;
+    color: fff;
+    text-decoration: none;
+    font-size: 0;
+    vertical-align: top;
+    margin-left: 10px;
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    line-height: 30px;
+    text-align: center;
+    border: 4px solid #c2cec7;
+}
+.social-btn:hover {
+    border: 4px solid #dbe3de;
+}
+.social-btn-tw {
+    background:  #849d8f url("../img/tw.svg") no-repeat center;
+}
+.social-btn-inst {
+    background:  #849d8f url("../img/inst.svg") no-repeat center;
+}
+.social-btn-fb {
+    background:  #849d8f url("../img/fb.svg") no-repeat center;
+}
+.social-btn-vk{
+    background:  #849d8f url("../img/vk.svg") no-repeat center;
+}
+
 .footer-menu {
-  float: left;
+    float: left;
     width: 328px;
     background: lightgray;
 }
 .footer-menu a {
-
   font-size: 13px;
   line-height: 18px;
   color: #ffffff;
-
 }
 /*потом убрать*/
 .for-suppliers,
