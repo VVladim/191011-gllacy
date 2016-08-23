@@ -24,10 +24,10 @@ html {
   margin: 0;
 }
 h1 {
-   font-size: 60px;
-   line-height: 60.35px;
-   /*color: #ffffff;*/
-   font-weight: bold;
+  font-size: 60px;
+  line-height: 60.35px;
+  /*color: #ffffff;*/
+  font-weight: bold;
 }
 h2 {
   font-size: 35px;
@@ -40,13 +40,13 @@ h3{
   line-height: 30px;
 }
 /*.backlight {
-    position: absolute;
-    width: 1045px;
-    height: 881px;
-    background: transparent url("../img/backlight.png") no-repeat;
-    top: 0;
-    left: 77px;
-    z-index :2;
+  position: absolute;
+  width: 1045px;
+  height: 881px;
+  background: transparent url("../img/backlight.png") no-repeat;
+  top: 0;
+  left: 77px;
+  z-index :2;
 }*/
 /*.big-ice {
   position: absolute;
@@ -176,15 +176,15 @@ body > input[type="radio"] {
 }
 
 .conteiner {
-   width: 1146px;
-   margin-left: auto;
-   margin-right:auto;
-   /*background: #849d8f;*/
-   padding-left: 27px;
-   padding-right: 27px;
-   /*margin-bottom: 300px;*/
-   position:relative;
-   z-index: 1;
+  width: 1146px;
+  margin-left: auto;
+  margin-right:auto;
+  /*background: #849d8f;*/
+  padding-left: 27px;
+  padding-right: 27px;
+  /*margin-bottom: 300px;*/
+  position:relative;
+  z-index: 1;
 }
 
 .main-header {
@@ -194,15 +194,15 @@ body > input[type="radio"] {
   /*margin-bottom: 500px;*/
 }
 .clearfix::after{
-   content: "";
-   display:table;
-   clear:both;
+  content: "";
+  display:table;
+  clear:both;
 }
 .index-logo {
-   margin-top:5px;
-   margin-left:-5px;
-   float:left;
-   margin-right: 17px;
+  margin-top:5px;
+  margin-left:-5px;
+  float:left;
+  margin-right: 17px;
 }
 .main-menu {
   margin: 0;
@@ -211,11 +211,11 @@ body > input[type="radio"] {
   margin-top: 23px;
 }
 .main-menu > li {
-   display: inline-block;
-   verticsl-align: top;
-   position: relative;
-   margin: 0;
-   padding: 0;
+  display: inline-block;
+  verticsl-align: top;
+  position: relative;
+  margin: 0;
+  padding: 0;
 }
 .main-menu>li>a {
   display:block;
@@ -331,15 +331,15 @@ body > input[type="radio"] {
     display: block;
 }
 .search-form {
-   display: none;
-   width: 310px;
-   position: absolute;
-   right: 234px;
-   top: 36px;
-   padding: 20px 15px;
-   background: #f8f7f4;
-   border-radius: 5px;
-   box-shadow: 0 20px 30px 1px rgba(0, 0, 0, 0.4);
+  display: none;
+  width: 310px;
+  position: absolute;
+  right: 234px;
+  top: 36px;
+  padding: 20px 15px;
+  background: #f8f7f4;
+  border-radius: 5px;
+  box-shadow: 0 20px 30px 1px rgba(0, 0, 0, 0.4);
 }
 input[type="search"]  {
   width: 100%;
@@ -437,29 +437,30 @@ main {
 .pleasure-item p, .pleasure-item h2 {
   color: white;
 }
-  .pleasure {
-    margin-bottom: 40px;
-    /*position: relative;
-    z-index: 6*/
+.pleasure {
+  margin-bottom: 40px;
+  /*position: relative;
+  z-index: 6*/
+}
+.pleasure-item:first-child {
+  float:left;
+  background-image: url("../img/bg1.jpg");
   }
-  .pleasure-item:first-child {
-    float:left;
-    background-image: url("../img/bg1.jpg");
-  }
-  .pleasure-item {
-    float: right;
-    width: 560px;
-    height: 228px;
-    background: gray;
-    position: relative;
-    border-radius: 15px;
-    background-image: url("../img/bg2.jpg");
-    margin-bottom: 40px;
-  }
-  .pleasure-item p, .pleasure-item h2 {
+.pleasure-item {
+  float: right;
+  width: 560px;
+  height: 228px;
+  background: gray;
+  position: relative;
+  border-radius: 15px;
+  background-image: url("../img/bg2.jpg");
+  margin-bottom: 40px;
+}
+.pleasure-item p,
+.pleasure-item h2 {
   color:white;
 }
-  .pleasure-item p {
+.pleasure-item p {
    width: 511px;
    margin-left: 18px;
    margin-top:-14px;
@@ -576,18 +577,18 @@ span.hit {
 .feature-keeping {
     position: relative;
 }
- span.icon-ice {
-   background: red;
-   color: white;
-   width: 48px;
-   height: 48px;
-   border-radius: 50%;
-   line-height: 48px;
-   text-align: center;
-   position:absolute;
-   top: -12px;
-   left: 0px;
-   background: transparent url("../img/ice.svg") no-repeat;
+span.icon-ice {
+  background: red;
+  color: white;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  line-height: 48px;
+  text-align: center;
+  position:absolute;
+  top: -12px;
+  left: 0px;
+  background: transparent url("../img/ice.svg") no-repeat;
 }
 span.icon-leaf {
   background: red;
@@ -634,7 +635,7 @@ span.icon-thermometer {
   /*margin-bottom: 40px;*/
 }
 .ours-news .news {
-   width:540px;
+  width:540px;
    float:left;
    background-image: url("../img/Strawberry.jpg.");
    border-radius: 15px;
@@ -647,10 +648,10 @@ span.icon-thermometer {
    margin-bottom: 6px;
 }
 .news a {
-   font-size: 24px;
-   line-height: 30px;
-   font-weight: 700;
-   color: #323232;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #323232;
 }
 .recipes {
   /*background:gray;*/
@@ -666,15 +667,15 @@ span.icon-thermometer {
   position: relative;
 }
 .ours-news .subscription-block {
-   width: 530px;
-   height: 200px;
-   background: #f8f7f4;;
-   border-radius: 15px;
-   padding-top: 12px;
-   padding-left: 20px;
-   /*position: absolute;
-   right:5px;
-   bottom: 5px;*/
+  width: 530px;
+  height: 200px;
+  background: #f8f7f4;;
+  border-radius: 15px;
+  padding-top: 12px;
+  padding-left: 20px;
+  /*position: absolute;
+  right:5px;
+  bottom: 5px;*/
 
 }
 .subscription-block p {
@@ -714,29 +715,29 @@ input[type="button"] {
 }
 
 .main-map {
-     height:430px;
-     background-image: url("../img/check.png");
-     margin-top:0px;
-     position: relative;
+  height:430px;
+  background-image: url("../img/check.png");
+  margin-top:0px;
+  position: relative;
 }
 .map-contacts {
-    width: 275px;
-    padding-top: 13px;
-    padding-left: 25px;
-    padding-bottom: 30px;
+  width: 275px;
+  padding-top: 13px;
+  padding-left: 25px;
+  padding-bottom: 30px;
     /*height:305px;*/
-    background: #fff;
-    position: absolute;
-    right: 27px;
-    top: 62px;
-    border-radius: 10px;
+  background: #fff;
+  position: absolute;
+  right: 27px;
+  top: 62px;
+  border-radius: 10px;
 }
 .map-contacts p {
-    font-size: 14px;
-    line-height:20px;
-    color: #323232;
-    font-weight: 400px;
-    margin-bottom: -16px;
+  font-size: 14px;
+  line-height:20px;
+  color: #323232;
+  font-weight: 400px;
+  margin-bottom: -16px;
 }
 .address,
 .order {
