@@ -147,14 +147,16 @@ h3{
   width: 17px;
   height: 17px;
   margin-right: 8px;
-
   vertical-align: top;
-
   background-color: transparent;
   border: 2px solid #ffffff;
   border-radius: 50%;
   cursor: pointer;
 }
+.slider-controls label:hover {
+    background-color: #b2c1b7;
+}
+
 body > input[type="radio"] {
   display: none;
 }
@@ -181,6 +183,10 @@ body > input[type="radio"] {
 #btn-2:checked ~ .site-wrapper label[for="btn-2"],
 #btn-3:checked ~ .site-wrapper label[for="btn-3"] {
   background-color: #ffffff;
+}
+
+.slider-controls label:hover {
+    background-color: #b2c1b7;
 }
 
 
