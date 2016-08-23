@@ -676,7 +676,15 @@ input[type="button"] {
    .footer-social {
     float: left;
     width: 267px;
-    margin-right: 132px;
+    margin-right: 130px;
+}
+footer .conteiner {
+  padding-top: 19px;
+  padding-bottom: 22px;
+}
+.footer-social {
+  margin-top: 18px;
+
 }
 .social-btn {
     display: inline-block;
@@ -712,7 +720,8 @@ input[type="button"] {
 .footer-menu {
     float: left;
     width: 328px;
-    background: lightgray;
+    margin-top: 12px;
+    /*background: lightgray;*/
 }
 .footer-menu a {
   font-size: 13px;
@@ -720,19 +729,31 @@ input[type="button"] {
   color: #ffffff;
 }
 /*потом убрать*/
-.for-suppliers,
+/*.for-suppliers,
 .on-production,
 .our-documentation,
 .ekostandartam {
   background: green;
+}*/
+.for-suppliers {
+    position: relative;
+}
+.for-suppliers::before {
+  content: "";
+  position: absolute;
+  top: 6px;
+  left: 0px;
+  width: 15px;
+  height: 13px;
+  background: transparent url("../img/heart.svg") no-repeat;
 }
 
 .production {
   float: left;
-  width: 135px;
+  width: 137px;
 }
-.production a {
-  margin-left: 22px;
+.production a{
+  margin-left: 24px;
 }
 
 .documentation {
@@ -741,10 +762,18 @@ input[type="button"] {
 }
  .footer-info {
    float: right;
-   width: 192px;
+   width: 190px;
    font-size:12px;
    lineheight:18px;
+   /*background :gray;*/
 }
+.copyright {
+    margin-top: -5px;
+}
+.copyright, .copyright a {
+    color: #fefefe;
+}
+
 
 .bread-rooms {
     margin: 0;
