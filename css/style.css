@@ -11,6 +11,7 @@ body {
   margin-right: auto;
   background: grey;
   padding: 0;
+  width: 1200px;
 }
 html {
   padding:  0;
@@ -32,6 +33,24 @@ h3{
   font-size:24px;
   line-height: 30px;
 }
+.backlight {
+    position: absolute;
+    width: 1045px;
+    height: 881px;
+    background: transparent url("../img/backlight.png") no-repeat;
+    top: 0;
+    left: 77px;
+    z-index :2;
+}
+.big-ice {
+  position: absolute;
+  width: 647px;
+  height: 584px;
+  background: transparent url("../img/big-ice.png") no-repeat;
+  top: 83px;
+  left: 277px;
+  z-index :3;
+}
 
 .conteiner {
    width: 1146px;
@@ -41,9 +60,13 @@ h3{
    padding-left: 27px;
    padding-right: 27px;
    /*margin-bottom: 300px;*/
+   position:relative;
+   z-index: 1;
 }
 
 .main-header {
+  position: relative;
+  z-index: 6;
   /*background: gray;*/
   /*margin-bottom: 272px;*/
 }
@@ -292,10 +315,12 @@ h3{
 
 main {
   padding-bottom: 40px;
-  background: #849d8f;
+  /*background: #849d8f;*/
+  position: relative;
+  z-index: 6;
 }
 .product-show {
-     background: lightgray;
+     /*background: lightgray;*/
      text-align:center;
      margin-bottom:40px;
      height: 195px;
@@ -307,6 +332,7 @@ main {
      margin-right:auto;
      text-align:center;
      margin-bottom:7px;
+     color: #ffffff;
    }
    .giv-both {
      display:inline-block;
@@ -335,6 +361,8 @@ main {
 }
   .pleasure {
     margin-bottom: 40px;
+    /*position: relative;
+    z-index: 6*/
   }
   .pleasure-item:first-child {
     float:left;
