@@ -185,10 +185,6 @@ body > input[type="radio"] {
   background-color: #ffffff;
 }
 
-.slider-controls label:hover {
-    background-color: #b2c1b7;
-}
-
 
 
 
@@ -359,9 +355,9 @@ body > input[type="radio"] {
   background: #f8f7f4 url("../img/search-copy.svg") no-repeat;
   color: #373737;
 }
-/*.search:hover .search-form {*/
-    /*display: block;*/
-/*}*/
+.search:hover .search-form {
+    display: block;
+}
 .search-form {
     display: none;
     width: 310px;
@@ -406,8 +402,10 @@ body > input[type="radio"] {
   height: 19px;
   background: transparent url("../img/in.svg") no-repeat;
 }
+
 .login:hover {
-  background: #f8f7f4 url("../img/in-copy.svg") no-repeat;
+  background: #f8f7f4;
+   /*url("../img/in-copy.svg") no-repeat;*/
     color: #373737;
 }
 .cart {
