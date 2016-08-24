@@ -215,7 +215,6 @@ body > input[type="radio"] {
   position: relative;
   margin: 0;
   padding: 0;
-  padding-bottom: 7px;
 }
 .main-menu>li>a {
   display:block;
@@ -226,9 +225,17 @@ body > input[type="radio"] {
   padding-left: 13px;
   padding-right: 13px;
   border-radius:20px;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(256, 256, 256, 0.2);
   /*background: #fff;*/
 }
+.main-menu > .opened > a {
+   background: #d07058;
+}
 
+.main-menu > li:hover {
+   padding-bottom: 7px;
+}
 .main-menu > li:hover .sub-menu {
     display: block;
 }
@@ -560,6 +567,17 @@ span.hit {
   font-weight: 700;
   color: #FFFFFF;
 }
+.price-item .ruble {
+  /*position: absolute;*/
+  margin-bottom: -3px;
+  margin-left: -3px;
+  margin-right: -2px;
+  display: inline-block;
+  width: 32px;
+  height:37px;
+  background: url("../img/ruble.svg");
+
+}
 .price-item .weight {
   font-size: 30px;
   line-height: 45px;
@@ -568,6 +586,8 @@ span.hit {
 }
 .product a {
   color: #ffffff;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(256, 256, 256, 0.2);
 }
 .features {
   background-image: url("../img/cell.jpg");
@@ -860,6 +880,10 @@ footer .conteiner {
   line-height: 18px;
   color: #ffffff;
 }
+footer a {
+  text-decoration: none;
+  border-bottom: 1px solid rgba(256, 256, 256, 0.2);
+}
 /*потом убрать*/
 /*.for-suppliers,
 .on-production,
@@ -900,7 +924,7 @@ footer .conteiner {
    /*background :gray;*/
 }
 .copyright {
-  margin-top: -5px;
+  margin-top: 3px;
 }
 .copyright, .copyright a {
   color: #fefefe;
