@@ -107,13 +107,14 @@
 
 
               <div class="sorting-name">
-                <span>Сортировка</span>
-                <select class="fame">
-                  <option value="popular">по популярности</option>
-                  <option value="light">Сначала недорогие</option>
-                  <option value="dark">Тначала доригие</option>
-                  <option value="dark">По жирности</option>
-                </select>
+                  <span>Сортировка</span>
+                  <select class="fame">
+                    <option value="popular">по популярности</option>
+                  <  option value="light">Сначала недорогие</option>
+                    <option value="dark">Тначала доригие</option>
+                    <option value="dark">По жирности</option>
+                  </select>
+                </div>
                 <div class="range-filter">
                   <div class="price-controls">
                     <label class="min-price">Цена:<input name="min-price" type="text" value="100">руб.</label>
@@ -128,47 +129,49 @@
                   </div>
                 </div>
 
-              <div>Жирность</div>
-              <div class="sorting-character">
-                <label>
-                  <input type="radio" name="placemark" value="0%"> 0%
-                </label>
-                <label>
-                  <input type="radio" name="placemark" value="до 10%"> до 10%
-                </label>
-                <label>
-                  <input type="radio" name="placemark" value="до 30%"> до 30%
-                </label>
-                <label>
-                  <input type="radio" name="placemark" value="выше 30%"> выше 30%
-                </label>
+              <div class="quality">
+                <span>Жирность</span>
+                <div class="sorting-character">
+
+                  <input type="radio" id="rd1" name="placemark" value="0%">
+                  <label for="rd1">0%</label>
+
+                  <input type="radio" id="rd2" name="placemark" value="до 10%">
+                  <label for="rd2">до 10%</label>
+
+                  <input type="radio" id="rd3" name="placemark" value="до 30%">
+                  <label for="rd3">до 30%</label>
+
+                  <input type="radio" id="rd4" name="placemark" value="выше 30%">
+                  <label for="rd4">выше 30%</label>
+
+                </div>
               </div>
             </div>
-            <div class="alter-taste">
-              <p>Наполнители:</p>
-            </div>
+
+
             <div class="alter">
+              <span>Наполнители</span>
               <div class="sorting-taste">
+                  <input type="checkbox" id="chb1" name="chocolate" checked>
+                  <label for="chb1"> шоколадные</label>
 
-                  <input type="checkbox" id="chb1" name="chocolate" checked><label for="chb1"> шоколадные</label>
+                  <input type="checkbox" id="chb2" name="sugar" checked>
+                  <label for="chb2">сахарные присыпки</label>
 
+                  <input type="checkbox" id="chb3" name="fruit">
+                  <label for="chb3">фрукты</label>
 
-                  <input type="checkbox" id="chb2" name="sugar" checked> <label for="chb2">сахарные присыпки</label>
+                  <input type="checkbox" id="chb4" name="syrup">
+                  <label for="chb4">сиропы</label>
 
-
-                  <input type="checkbox" id="chb3" name="fruit"> <label for="chb3">фрукты</label>
-
-
-                  <input type="checkbox" id="chb4" name="syrup"> <label for="chb4">сиропы</label>
-
-
-                  <input type="checkbox" id="chb5" name="jam"> <label for="chb5">джемы</label>
-
+                  <input type="checkbox" id="chb5" name="jam">
+                  <label for="chb5">джемы</label>
+              </div>
               </div>
               <input type="submit" class="sending" value="Применить">
-            </div>
           </form>
-        </div>
+
       </div>
 
       <div class="catalog-item">
