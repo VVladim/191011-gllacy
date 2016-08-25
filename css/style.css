@@ -945,8 +945,20 @@ footer a {
 .bread-rooms li a {
   color: #fff;
 }
-    .filter-block h2 {
+.filter-block {
+  /*background: green;*/
+}
+.filter-block h2 {
   color:#fff;
+}
+.sorting-name,
+.range-filter,
+.quality {
+  display: inline-block;
+  vertical-align: top;
+  /*background: red;*/
+  /*border: 1px solid black;*/
+ margin-right: 10px;
 }
 
 .range-filter {
@@ -961,6 +973,7 @@ footer a {
    border-radius: 20px;
    /*border: 1px solid gray;*/
    overflow: hidden;
+
 }
 .range-controls .scale {
    margin-top: 16px;
@@ -996,7 +1009,7 @@ footer a {
 }
 .price-controls input {
    width: 25px;
-   padding: 5px 4px;
+   padding: 3px 4px;
    font-size: 14px;
    line-height: 16px;
    font-weight: 400;
@@ -1015,11 +1028,6 @@ footer a {
   color: #f1f4f2;
   margin-left: 17px;
 }
-/*.sorting-name .fame {
-    width: 194px;
-    height: 36px;
-
-}*/
 
 select.fame {
   width: 194px;
@@ -1039,12 +1047,22 @@ select:hover {
    background: #ffffff;
    color:
 }
+.quality {
+   width: 415px;
+}
+.quality span{
+  font-size: 14px;
+  line-height: 16px;
+  /*font-weight: 400;*/
+  color: #f1f4f2;
+  margin-left: 15px;
+}
 .sorting-character {
    width: 397px;
    height: 36px;
    background: #aabab0;
    border-radius: 15px;
-   padding-left: 18px;
+   padding-left: 16px;
 }
 input[type="radio"] {
    display: none;
@@ -1052,11 +1070,11 @@ input[type="radio"] {
 input[type="radio"]+label {
    display: inline-block;
    line-height: 25px;
-   padding: 6px 11px 6px 32px;
+   padding: 6px 15px 6px 30px;
    position: relative;
    cursor: pointer;
    color: #ffffff;
-   border:1px solid black;
+   /*border:1px solid black;*/
 }
 input[type="radio"]+label::after {
    content: "";
@@ -1086,7 +1104,7 @@ input[type="radio"]:checked+label::before {
    display: inline-block;
    color: #f8f9f8;
    margin-left:5px;
-   margin-bottom: 4px;
+   /*margin-bottom: 4px;*/
 }
 .sorting-taste {
    width: 697px;
@@ -1132,13 +1150,14 @@ input[type="checkbox"]:checked+label::before {
   top: 8px;
   left: 0;
 }
-.sorting-name,
-.range-filter,
-.quality {
-  display: inline-block;
-  /*background: red;*/
-  border: 1px solid black;
+.sending {
+   width: 141px;
+   height:32px;
+   background: #aabab0;
 }
+
+
+
 
 
 
