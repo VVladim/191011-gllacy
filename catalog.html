@@ -107,8 +107,9 @@
 
 
               <div class="sorting-name">
-                <select name="fame">
-                  <option value="popular">По популярности</option>
+                <span>Сортировка</span>
+                <select class="fame">
+                  <option value="popular">по популярности</option>
                   <option value="light">Сначала недорогие</option>
                   <option value="dark">Тначала доригие</option>
                   <option value="dark">По жирности</option>
@@ -127,7 +128,7 @@
                   </div>
                 </div>
 
-
+              <div>Жирность</div>
               <div class="sorting-character">
                 <label>
                   <input type="radio" name="placemark" value="0%"> 0%
@@ -148,21 +149,21 @@
             </div>
             <div class="alter">
               <div class="sorting-taste">
-                <label>
-                  <input type="checkbox" name="chocolate" checked> шоколадные
-                </label>
-                <label>
-                  <input type="checkbox" name="sugar" checked> сахарные присыпки
-                </label>
-                <label>
-                  <input type="checkbox" name="fruit"> фрукты
-                </label>
-                <label>
-                  <input type="checkbox" name="syrup"> сиропы
-                </label>
-                <label>
-                  <input type="checkbox" name="jam"> джемы
-                </label>
+
+                  <input type="checkbox" id="chb1" name="chocolate" checked><label for="chb1"> шоколадные</label>
+
+
+                  <input type="checkbox" id="chb2" name="sugar" checked> <label for="chb2">сахарные присыпки</label>
+
+
+                  <input type="checkbox" id="chb3" name="fruit"> <label for="chb3">фрукты</label>
+
+
+                  <input type="checkbox" id="chb4" name="syrup"> <label for="chb4">сиропы</label>
+
+
+                  <input type="checkbox" id="chb5" name="jam"> <label for="chb5">джемы</label>
+
               </div>
               <input type="submit" class="sending" value="Применить">
             </div>
