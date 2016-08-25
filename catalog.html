@@ -18,7 +18,14 @@
       <nav class="main-navigation">
         <ul class="main-menu">
           <li class="opened">
-            <a href="#">Каталог</a>
+            <a>Каталог</a>
+            <ul class="sub-menu">
+              <li><a href="#">Новинки</a></li>
+              <li class="opened2"><a href="#">Сливочное</a></li>
+              <li><a href="#">Щербеты</a></li>
+              <li><a href="#">Фруктовый лед</a></li>
+              <li><a href="#">Мелорин</a></li>
+            </ul>
           </li>
           <li>
             <a href="#">Доставка и оплата</a>
@@ -74,7 +81,8 @@
          </section>
        </div>
      </header>
-    <div class="backlight"></div>
+
+
 
 
     <main>
@@ -101,15 +109,18 @@
               <div class="sorting-name">
                 <select name="fame">
                   <option value="popular">По популярности</option>
+                  <option value="light">Сначала недорогие</option>
+                  <option value="dark">Тначала доригие</option>
+                  <option value="dark">По жирности</option>
                 </select>
                 <div class="range-filter">
                   <div class="price-controls">
-                    <label class="min-price">Цена: <input name="min-price" type="text" value="0">руб.</label>
-                    <label class="max-price">- <input name="max-price" type="text" value="500">руб.</label>
+                    <label class="min-price">Цена:<input name="min-price" type="text" value="100">руб.</label>
+                    <label class="max-price">&ndash;<input name="max-price" type="text" value="500">руб.</label>
                   </div>
                   <div class="range-controls">
                     <div class="scale">
-                      <div class="bar"></div>
+                      <div class="bar" style="width: 52%""></div>
                     </div>
                     <div class="toggle toggle-min"></div>
                     <div class="toggle toggle-max"></div>

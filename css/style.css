@@ -255,6 +255,7 @@ body > input[type="radio"] {
   top: 36px;
   left: -8px;
   border-radius:5px;
+  z-index:100;
 }
 .sub-menu li {
   padding-top: 1px;
@@ -277,6 +278,9 @@ body > input[type="radio"] {
 }
 .sub-menu li a:active {
    background: #f6b5a5;
+}
+.sub-menu > .opened2 > a {
+   bacground: #f6b5a5;
 }
 .sub-menu li:first-child {
    padding-left: 10px;
@@ -355,7 +359,7 @@ body > input[type="radio"] {
     display: block;
 }
 .search-form {
-  display: none;
+  /*display: none;*/
   width: 310px;
   position: absolute;
   right: 234px;
@@ -466,7 +470,7 @@ main {
   padding-bottom: 40px;
   /*background: #849d8f;*/
   position: relative;
-  z-index: 6;
+  z-index: 4;
 }
 .pleasure-item p, .pleasure-item h2 {
   color: white;
@@ -963,9 +967,41 @@ footer a {
    background: #d1dad3;
 }
 .range-controls .bar {
-   width: 60%;
    height: 4px;
    background: #f8f7f4;
+   margin-left: 35px;
+}
+.range-controls .toggle {
+  position: absolute;
+   width: 4px;
+   height: 4px;
+   border: 8px solid #f8f7f4;
+   background: #f8f7f4;
+   border-radius: 50%;
+   top: 8px
+}
+.range-controls .toggle-min {
+    left: 35px;
+}
+.range-controls .toggle-max {
+    left: 135px;
+}
+.price-controls {
+   font-size: 14px;
+   line-height: 16px;
+   font-weight: 400;
+   color: #f1f4f2;
+   margin-left: 15px;
+}
+.price-controls input {
+   width: 25px;
+   padding: 5px 4px;
+   font-size: 14px;
+   line-height: 16px;
+   font-weight: 400;
+   color: #f1f4f2;
+   border: none;
+   background: #849d8f;
 }
 
 
