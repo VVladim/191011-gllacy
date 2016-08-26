@@ -6,7 +6,7 @@
   <title>HTML Academy: Глейси</title>
   <link href="css/style.css" rel="stylesheet">
 </head>
-<body>
+<body catalog-page>
 
   <div class="conteiner">
     <header class="main-header clearfix">
@@ -104,8 +104,7 @@
         <div class="filter-block">
           <h2>Сливочное мороженое</h2>
           <form action="form.php" method="GET" class="data">
-
-
+            <div class="floor-filter">
                <div class="sorting-name">
                   <span>Сортировка</span>
                   <select class="fame">
@@ -128,49 +127,49 @@
                     <div class="toggle toggle-max"></div>
                   </div>
                 </div>
+                <div class="quality">
+                  <span>Жирность</span>
+                  <div class="sorting-character">
 
-              <div class="quality">
-                <span>Жирность</span>
-                <div class="sorting-character">
+                    <input type="radio" id="rd1" name="placemark" value="0%" >
+                    <label for="rd1">0%</label>
 
-                  <input type="radio" id="rd1" name="placemark" value="0%" >
-                  <label for="rd1">0%</label>
+                    <input type="radio" id="rd2" name="placemark" value="до 10%" checked>
+                    <label for="rd2">до 10%</label>
 
-                  <input type="radio" id="rd2" name="placemark" value="до 10%" checked>
-                  <label for="rd2">до 10%</label>
+                    <input type="radio" id="rd3" name="placemark" value="до 30%">
+                    <label for="rd3">до 30%</label>
 
-                  <input type="radio" id="rd3" name="placemark" value="до 30%">
-                  <label for="rd3">до 30%</label>
+                    <input type="radio" id="rd4" name="placemark" value="выше 30%">
+                    <label for="rd4">выше 30%</label>
 
-                  <input type="radio" id="rd4" name="placemark" value="выше 30%">
-                  <label for="rd4">выше 30%</label>
-
+                  </div>
                 </div>
               </div>
-            </div>
 
 
-            <div class="alter">
-              <span>Наполнители</span>
-              <div class="sorting-taste">
-                  <input type="checkbox" id="chb1" name="chocolate" checked>
-                  <label for="chb1"> шоколадные</label>
+                <div class="alter">
+                  <span>Наполнители</span>
+                  <div class="sorting-taste">
+                      <input type="checkbox" id="chb1" name="chocolate" checked>
+                      <label for="chb1"> шоколадные</label>
 
-                  <input type="checkbox" id="chb2" name="sugar" checked>
-                  <label for="chb2">сахарные присыпки</label>
+                      <input type="checkbox" id="chb2" name="sugar" checked>
+                      <label for="chb2">сахарные присыпки</label>
 
-                  <input type="checkbox" id="chb3" name="fruit">
-                  <label for="chb3">фрукты</label>
+                      <input type="checkbox" id="chb3" name="fruit">
+                      <label for="chb3">фрукты</label>
 
-                  <input type="checkbox" id="chb4" name="syrup">
-                  <label for="chb4">сиропы</label>
+                      <input type="checkbox" id="chb4" name="syrup">
+                      <label for="chb4">сиропы</label>
 
-                  <input type="checkbox" id="chb5" name="jam">
-                  <label for="chb5">джемы</label>
-              </div>
-              <input type="submit" class="sending" value="Применить">
-            </div>
-          
+                      <input type="checkbox" id="chb5" name="jam">
+                      <label for="chb5">джемы</label>
+                  </div>
+                  <input type="submit" class="sending" value="Применить">
+                </div>
+          </form>
+        </div>
 
       </div>
 
@@ -315,17 +314,18 @@
             </div>
           </div>
         </div>
-
-      <div class="paginator">
-        <a class="paginator-prev" href="#prev">Назад</a>
-        <a href="#1">1</a>
-        <a href="#2">2</a>
-        <a href="#3">3</a>
-        <a href="#4">4</a>
-        <a href="#5">5</a>
-        <a class="paginator-next" href="#next">Вперёд</a>
-      </div>
-    </main>
+        <div class="paginator-wrapper">
+          <div class="paginator">
+                <a href="#prev" class="prev dissabled">Назад</a>
+                <a class="current" href="#1">1</a>
+                <a href="#2">2</a>
+                <a href="#3">3</a>
+                <a href="#4">4</a>
+                <a href="#5">5</a>
+                <a href="#next" class="next">Вперёд</a>
+          </div>
+        </div>
+      </main>
     </div>
 
     <footer class="footer-page">

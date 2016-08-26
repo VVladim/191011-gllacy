@@ -492,7 +492,7 @@ main {
   position: relative;
   border-radius: 15px;
   background-image: url("../img/bg2.jpg");
-  margin-bottom: 40px;
+  /*margin-bottom: 40px;*/
 }
 .pleasure-item p,
 .pleasure-item h2 {
@@ -530,7 +530,7 @@ main {
 }
 .list-product {
   /*background: gray;*/
-  margin-bottom: 20px;
+  margin-bottom: 9px;
 }
 .product {
   float: left;
@@ -563,7 +563,7 @@ span.hit {
 }
 .price-item {
   position: absolute;
-  top: 215px;
+  top: 210px;
 }
 .price-item .price {
   font-size: 45px;
@@ -713,13 +713,13 @@ span.icon-thermometer {
   padding-top: 5px;
   background-image: url("../img/postback.png");
   width: 555px;
-  height:214px;
+  height:215px;
   border-radius: 15px;
   position: relative;
 }
 .ours-news .subscription-block {
   width: 530px;
-  height: 200px;
+  height: 199px;
   background: #f8f7f4;;
   border-radius: 15px;
   padding-top: 12px;
@@ -947,12 +947,15 @@ footer a {
 }
 .filter-block {
    /*margin-bottom: 10px;*/
-  background: lightgray;
+  /*background: lightgray;*/
 }
 .filter-block h2 {
   color:#fff;
-  background: red;
+  /*background: red;*/
   margin-bottom: 16px;
+}
+.floor-filter {
+   margin-bottom: 15px;
 }
 .sorting-name,
 .range-filter,
@@ -967,7 +970,7 @@ footer a {
 .range-filter {
   width: 219px;
   margin-right: 10px;
-  background: gray;
+  /*background: gray;*/
 }
 .range-controls {
    position: relative;
@@ -1067,6 +1070,7 @@ select:hover {
   /*font-weight: 400;*/
   color: #f1f4f2;
   margin-bottom: 6px;
+  margin-left: 15px;
 }
 .sorting-character {
    width: 397px;
@@ -1112,6 +1116,7 @@ input[type="radio"]:checked+label::before {
 }
 .alter {
    margin-left: 8px;
+   margin-bottom: 39px;
 }
 .alter span {
    display: block;
@@ -1187,22 +1192,57 @@ input[type="checkbox"]:checked+label::before {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+.paginator-wrapper {
+   position: relative;
+   border-bottom: 1px solid #fff;
+   height: 56px;
+}
 .paginator {
+  position: absolute;
+  right:0;
   margin-left: 954px;
-  width: 193px;
+  width: 191px;
   height: 26px;
-  background: gray;
+  /*background: gray;*/
   margin-bottom: 28px;
+  line-height: 26px;
+}
+.paginator a {
+  display: inline-block;
+    width: 26px;
+    height: 26px;
+    color: #ffffff;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    /*background: #95a5a6;*/
+    line-height: 26px;
+}
+.catalog-item {
+   margin-bottom: 56px;
+}
+.paginator .prev {
+    text-indent: -10000px;
+    width: 9px;
+    background: url("../img/prev.svg") no-repeat 0px 5px;
+}
+.paginator .current {
+   background: #ffffff;
+   color: #323232;
+}
+.paginator .dissabled {
+   opacity: 0.2;
+}
+.paginator .next {
+    text-indent: -10000px;
+    background: url("../img/next.svg") no-repeat 0px 5px;
+    width: 9px;
+}
+.paginator a:first-child {
+    margin-right: 10px;
+}
+.paginator a:last-child {
+    margin-right: -3px;
+    margin-left: 10px;
 }
