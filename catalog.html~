@@ -90,11 +90,11 @@
         <div class="breadrooms">
           <ul class="bread-rooms">
             <li>
-              <a href="index.html">Главная</a>
+              <a href="#">Главная</a>
             </li>
             <li>»</li>
             <li>
-              <a>Каталог</a>
+              <a href="#">Каталог »</a>
             </li>
             <li>»</li>
             <li>
