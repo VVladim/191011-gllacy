@@ -257,6 +257,7 @@ body > input[type="radio"] {
   left: -8px;
   border-radius:5px;
   z-index:100;
+  box-shadow: 0 20px 25px 1px rgba(0, 0, 0, 0.4);
 }
 .sub-menu li {
   padding-top: 1px;
@@ -418,15 +419,19 @@ input[type="search"]  {
   height: 215px;
   background: #f8f7f4;
   left: -182px;
+  top: 36px;
   z-index: 6;
   font-size: 14px;
   line-height: 24px;
   font-weight: 400;
+  border-radius: 5px;
+  box-shadow: 0 20px 28px 1px rgba(0, 0, 0, 0.4);
 }
 .login-block {
   width: 241px;
    margin-top: 20px;
    margin-left: 19px;
+   margin-bottom: 19px;
 }
 input[type="text"] {
    width: 100%;
@@ -437,8 +442,8 @@ input[type="text"] {
 }
 .password-block {
   width: 241px;
-   margin-top: 19px;
    margin-left: 19px;
+   margin-bottom: 19px;
 }
 input[type="password"] {
    width: 100%;
@@ -446,6 +451,49 @@ input[type="password"] {
    border: 1px solid #cccccc;
    border-radius: 5px;
    box-sizing: border-box;
+}
+.login-btn {
+  display: inline-block;
+  padding: 10px 25px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  vertical-align: top;
+  color: #ffffff;
+  text-decoration: none;
+  text-shadow: 0 1px 5px rgba(160, 32, 11, 0.76);
+  background: #f26843;
+  background:    -moz-linear-gradient(top, #f26843 0%, #e74a35 100%);
+  background: -webkit-linear-gradient(top, #f26843 0%, #e74a35 100%);
+  background:         linear-gradient(to bottom, #f26843 0%, #e74a35 100%);
+  border-radius: 20px;
+  box-shadow: 0 2px 2px rgba(172, 16, 0, 0.64);
+  margin-left: 19px;
+  margin-right: 15px;
+}
+.logi-btn-btn:hover {
+  background:    -moz-linear-gradient(top, #f58669 0%, #ec6f5e 100%);
+  background: -webkit-linear-gradient(top, #f58669 0%, #ec6f5e 100%);
+  background:         linear-gradient(to bottom, #f58669 0%, #ec6f5e 100%);
+  box-shadow: 0 2px 2px rgba(172, 16, 0, 1);
+}
+.login-btn:active {
+  background:    -moz-linear-gradient(top, #d84732 0%, #e1613e 100%);
+  background: -webkit-linear-gradient(top, #d84732 0%, #e1613e 100%);
+  background:         linear-gradient(to bottom, #d84732 0%, #e1613e 100%);
+  box-shadow: inset 0 2px 2px rgba(172, 16, 0, 1);
+}
+.other-data {
+   display: inline-block;
+   width: 119px;
+}
+.door .other-data a {
+   font-size: 13px;
+   line-height: 24px;
+   font-weight: 400;
+   color: #323232;
+   text-decoration: none;
+   border-bottom: 1px solid #adacaa;
 }
 .cart {
   position: relative;
@@ -906,6 +954,9 @@ footer {
 .social-btn:hover {
   border: 4px solid #dbe3de;
 }
+.social-btn:active {
+   box-shadow: inset 0 2px 2px rgba(172, 16, 0, 1);
+}
 .social-btn-tw {
   background:  #849d8f url("../img/tw.svg") no-repeat center;
 }
@@ -918,7 +969,6 @@ footer {
 .social-btn-vk{
   background:  #849d8f url("../img/vk.svg") no-repeat center;
 }
-
 .footer-menu {
   float: left;
   width: 328px;
