@@ -342,35 +342,23 @@
     <button class="btn" type="submit">Отправить</button>
   </form>
 </div>
+<div class="modal-overlay"></div>
 <script>
-     var link = document.querySelector(".ogin");
+   var link = document.querySelector(".ogin");
 
-     var popup = document.querySelector(".modal-content");
-     var close = popup.querySelector(".modal-content-close");
+   var popup = document.querySelector(".modal-content");
+   var close = popup.querySelector(".modal-content-close");
 
+   link.addEventListener("click", function(event) {
+     event.preventDefault();
+     popup.classList.add("modal-content-show");
+   });
 
-
-     var login = popup.querySelector("[name=user-name]");
-
-
-
-     link.addEventListener("click", function(event) {
-       event.preventDefault();
-       popup.classList.add("modal-content-show");
-       login.focus();
-
-     });
-
-     close.addEventListener("click", function(event) {
-       event.preventDefault();
-       popup.classList.remove("modal-content-show");
-     });
-
-
-
-
-
-   </script>
+   close.addEventListener("click", function(event) {
+     event.preventDefault();
+     popup.classList.remove("modal-content-show");
+   });
+ </script>
 </body>
 
 </html>
