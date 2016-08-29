@@ -14,9 +14,9 @@ body {
   margin-bottom:0;
   margin-left: auto;
   margin-right: auto;
-  background-color: grey;
+  background-color: #849d8f;
   padding: 0;
-  width:1200px;
+  /*width:1200px;*/
 }
 
 html {
@@ -1116,6 +1116,7 @@ footer a {
   width: 219px;
   margin-right: 10px;
   /*background: gray;*/
+  cursor: pointer;
 }
 .range-controls {
    position: relative;
@@ -1127,6 +1128,7 @@ footer a {
    /*border: 1px solid gray;*/
    overflow: hidden;
    /*margin-top:10px;*/
+
 
 }
 .range-controls .scale {
@@ -1161,6 +1163,7 @@ footer a {
    color: #f1f4f2;
    margin-left: 20px;
    /*padding-botom: 20px;*/
+
 }
 .price-controls input {
    width: 25px;
@@ -1170,7 +1173,8 @@ footer a {
    font-weight: 400;
    color: #f1f4f2;
    border: none;
-   background: #849d8f;
+   background: inherit;
+   cursor: pointer;
 }
 .sorting-name {
    width: 194px;
@@ -1397,10 +1401,11 @@ input[type="checkbox"]:checked+label::before {
   width: 428px;
   height: 442px;
   background: #f8f7f4;
-  top: 200px;
+  top: 1500px;
   left: 300px;
   border-radius: 10px;
-
+  z-index:100;
+font-weight:
 }
 .modal-content-show {
   display: block;
