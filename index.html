@@ -13,7 +13,8 @@
   <input type="radio" id="btn-1" name="toggle" checked>
   <input type="radio" id="btn-2" name="toggle">
   <input type="radio" id="btn-3" name="toggle">
-
+  <div class="backlight">
+  </div>
   <div class="site-wrapper">
 
   <div class="conteiner">
@@ -286,11 +287,12 @@
             <p class="in-brackets">(с 10 до 20 ежедневно)</p>
           </div>
           <div class="collback">
-            <a href="#" class="btn">Форма рбратной связи</a>
+            <a href="#" class="ogin">Форма рбратной связи</a>
           </div>
         </section>
       </div>
     </div>
+
 
     <footer class="footer-page">
       <div class="conteiner clearfix">
@@ -323,12 +325,52 @@
         </section>
       </div>
     </footer>
-    <!-- <div class="place">
-
-    </div> -->
-
 </div>
+<div class="modal-content">
+  <button class="modal-content-close" type="button" title="Закрыть">
+    Закрыть
+  </button>
+  <h1>Мы обязательно вам ответим!</h1>
+  <form class="login-form" action="/" method="post">
+    <div class="collbackform">
+      <input type="text" name="user-name" placeholder="Как вас зовут?" required>
+      <input type="text" name="user-mail" placeholder="Ваша почта для ответа?" required>
+    </div>
+    <textarea name="user-story" rows="5" cols="45">
+      Напишите что-нибудь.
+    </textarea>
+    <button class="btn" type="submit">Отправить</button>
+  </form>
+</div>
+<script>
+     var link = document.querySelector(".ogin");
 
+     var popup = document.querySelector(".modal-content");
+     var close = popup.querySelector(".modal-content-close");
+
+
+
+     var login = popup.querySelector("[name=user-name]");
+
+
+
+     link.addEventListener("click", function(event) {
+       event.preventDefault();
+       popup.classList.add("modal-content-show");
+       login.focus();
+
+     });
+
+     close.addEventListener("click", function(event) {
+       event.preventDefault();
+       popup.classList.remove("modal-content-show");
+     });
+
+
+
+
+
+   </script>
 </body>
 
 </html>
