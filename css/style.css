@@ -1186,7 +1186,7 @@ footer {
   border: 4px solid #dbe3de;
 }
 .social-btn:active {
-   box-shadow: inset 0 2px 2px rgba(172, 16, 0, 1);
+   box-shadow: inset 0 2px 2px rgba(158, 160, 159, 1);
 }
 .social-btn-tw {
 
@@ -1403,12 +1403,12 @@ footer a:active {
   margin-bottom: 6px;
 }
 select.fame {
-  /*width: 194px;
+  width: 194px;
   height: 36px;
   font-size: 16px
   line-height: 18px;
   font-weight: 700;
-  color: #f1f4f2;*/
+  color: #f1f4f2;
   border-radius: 15px;
   padding-left: 15px;
   padding-right: 15px;
@@ -1703,7 +1703,7 @@ font-weight:
    color: #323232;
    margin-bottom: 16px;
 }
-.collbackform {
+.callbackform {
    width: 267px;
 }
 .login-form input[type="text"] {
