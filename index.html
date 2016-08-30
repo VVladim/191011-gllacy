@@ -260,7 +260,6 @@
               </div>
               <div class="subscription-send">
                 <button class="btn">Отправить</button>
-
               </div>
             </form>
           </div>
@@ -286,8 +285,8 @@
             <p class="number">8 812 450-25-25</p>
             <p class="in-brackets">(с 10 до 20 ежедневно)</p>
           </div>
-          <div class="collback">
-            <a href="#" class="ogin">Форма рбратной связи</a>
+          <div class="callback">
+            <a href="#" class="call">Форма обратной связи</a>
           </div>
         </section>
       </div>
@@ -332,9 +331,9 @@
   </button>
   <h1>Мы обязательно вам ответим!</h1>
   <form class="login-form" action="/" method="post">
-    <div class="collbackform">
-      <input type="text" name="user-name" placeholder="Как вас зовут?" required>
-      <input type="text" name="user-mail" placeholder="Ваша почта для ответа?" required>
+    <div class="callbackform">
+      <input type="text" name="your-name" placeholder="Как вас зовут?" recuared>
+      <input type="text" name="mail" placeholder="Ваша почта для ответа?" recuared>
     </div>
     <textarea name="user-story" rows="5" cols="45">
       Напишите что-нибудь.
@@ -344,20 +343,59 @@
 </div>
 <div class="modal-overlay"></div>
 <script>
-   var link = document.querySelector(".ogin");
+   var link = document.querySelector(".call");
 
    var popup = document.querySelector(".modal-content");
    var close = popup.querySelector(".modal-content-close");
+   var login = popup.querySelector("[name=your-name]");
+   var form = popup.querySelector("form");
+   var mail = popup.querySelector("[name=mail]");
+   var storage = localStorage.getItem("login");
+
+
 
    link.addEventListener("click", function(event) {
      event.preventDefault();
      popup.classList.add("modal-content-show");
+     if (storage) {
+  login.value = storage;
+  mail.focus();
+} else {
+  login.focus();
+}
+
    });
 
    close.addEventListener("click", function(event) {
      event.preventDefault();
      popup.classList.remove("modal-content-show");
+     popup.classList.remove("modal-error");
+
    });
+   form.addEventListener("submit", function(event) {
+  event.preventDefault();
+  if (!login.value || !mail.value) {
+  event.preventDefault();
+  popup.classList.add("modal-error");
+} else {
+  localStorage.setItem("login", login.value)
+}
+
+});
+window.addEventListener("keydown", function(event) {
+  if (event.keyCode === 27) {
+    if (popup.classList.contains("modal-content-show")) {
+      popup.classList.remove("modal-content-show");
+      popup.classList.remove("modal-error");
+
+    }
+  }
+});
+
+
+
+
+
  </script>
 </body>
 
