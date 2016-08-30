@@ -782,10 +782,12 @@ main {
    line-height: 22px;
    color:fff;
 }
-.pleasure-item a {
-  font-size:18px;
-  line-heught:24px;
-  font-weight:bold;
+
+}
+.pleasure-item .btn {
+  font-size: 18px;
+  line-heught: 24px;
+  font-weight: 700;
   text-decoration: none;
   padding:10px 23px;
   color:#fff;
@@ -793,6 +795,18 @@ main {
   box-shadow: 0 2px 2px 1px rgba(172, 16, 0, 0.64);
   text-shadow: 0 2px 5px  rgba(160, 32, 11, 0.76);
   background-image: linear-gradient(#f26843, #e74b36);
+}
+.pleasure-item .btn:hover {
+  background:    -moz-linear-gradient(top, #f58669 0%, #ec6f5e 100%);
+  background: -webkit-linear-gradient(top, #f58669 0%, #ec6f5e 100%);
+  background:         linear-gradient(to bottom, #f58669 0%, #ec6f5e 100%);
+  box-shadow: 0 2px 2px rgba(172, 16, 0, 1);
+}
+.pleasure-item .btn:active {
+  background:    -moz-linear-gradient(top, #d84732 0%, #e1613e 100%);
+  background: -webkit-linear-gradient(top, #d84732 0%, #e1613e 100%);
+  background:         linear-gradient(to bottom, #d84732 0%, #e1613e 100%);
+  box-shadow: inset 0 2px 2px rgba(172, 16, 0, 1);
 }
 .present {
   margin-left: 20px;
@@ -1110,6 +1124,18 @@ input[type="button"] {
   box-shadow: 0 2px 2px 1px rgba(172, 16, 0, 0.64);
   text-shadow: 0 2px 5px  rgba(160, 32, 11, 0.76);
   background-image: linear-gradient(#f26843, #e74b36);
+}
+.collback .ogin:hover {
+  background:    -moz-linear-gradient(top, #f58669 0%, #ec6f5e 100%);
+  background: -webkit-linear-gradient(top, #f58669 0%, #ec6f5e 100%);
+  background:         linear-gradient(to bottom, #f58669 0%, #ec6f5e 100%);
+  box-shadow: 0 2px 2px rgba(172, 16, 0, 1);
+}
+.collback .ogin:active {
+  background:    -moz-linear-gradient(top, #d84732 0%, #e1613e 100%);
+  background: -webkit-linear-gradient(top, #d84732 0%, #e1613e 100%);
+  background:         linear-gradient(to bottom, #d84732 0%, #e1613e 100%);
+  box-shadow: inset 0 2px 2px rgba(172, 16, 0, 1);
 }
 .dark-glass{
   display: none;
