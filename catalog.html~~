@@ -206,10 +206,9 @@
               <span class="weight">/кг</span>
             </div>
             <div class="item-name">
-              <a href="#">
-                 Сливочное с апельсиновым<br> джемом и цитрусовой стружкой
-              </a>
-            </div>
+            <a href="#">
+              Сливочное с апельсиновым<br> джемом и цитрусовой стружкой
+            </a>
           </div>
           <div class="product ice">
             <img src="img/2.png" width="267" height="267" alt="Глейси">
@@ -219,10 +218,11 @@
               <span class="weight">/кг</span>
             </div>
             <div class="item-name">
-              <a href="#">
-                  Сливочно-кофейное с кусочками<br> шоколада
-              </a>
-            </div>
+            <a href="#">
+
+              Сливочно-кофейное с кусочками<br> шоколада
+            </a>
+          </div>
           </div>
           <div class="product ice">
             <img src="img/3.png" width="267" height="267" alt="Глейси">
@@ -232,10 +232,10 @@
               <span class="weight">/кг</span>
             </div>
             <div class="item-name">
-              <a href="#">
-                Сливочно-клубничное<br> с присыпкой из белого шоколада
-              </a>
-            </div>
+            <a href="#">
+              Сливочно-клубничное<br> с присыпкой из белого шоколада
+            </a>
+          </div>
           </div>
           <div class="product ice">
             <img src="img/4.png" width="267" height="267" alt="Глейси">
@@ -245,10 +245,10 @@
               <span class="weight">/кг</span>
             </div>
              <div class="item-name">
-              <a href="#">
-                Сливочное крем-брюле с<br> кармельной подливкой
-              </a>
-            </div>
+            <a href="#">
+              Сливочное крем-брбле с<br> кармельной подливкой
+            </a>
+          </div>
           </div>
 
            <div class="product ice">
@@ -259,10 +259,10 @@
                <span class="weight">/кг</span>
              </div>
              <div class="item-name">
-               <a href="#">
-                Сливочное с брусничным<br> джемом
-              </a>
-             </div>
+             <a href="#">
+              Сливочное с брусничным<br> джемом
+            </a>
+           </div>
            </div>
            <div class="product ice">
              <img src="img/6.png" width="267" height="267" alt="Глейси">
@@ -272,10 +272,10 @@
                <span class="weight">/кг</span>
              </div>
              <div class="item-name">
-               <a href="#">
-                 Сливочно-черничное с цельными ягодами черники
+             <a href="#">
+               Сливочно-черничное с цельными ягодами черники
              </a>
-            </div>
+           </div>
            </div>
            <div class="product ice">
              <img src="img/7.png" width="267" height="267" alt="Глейси">
@@ -285,10 +285,10 @@
                <span class="weight">/кг</span>
              </div>
              <div class="item-name">
-               <a href="#">
-                 Сливочно-лимонное с карамельной присыпкой
-               </a>
-             </div>
+             <a href="#">
+               Сливочно-лимонное с карамельной присыпкой
+             </a>
+           </div>
            </div>
            <div class="product ice">
              <img src="img/8.png" width="267" height="267" alt="Глейси">
@@ -298,10 +298,10 @@
                <span class="weight">/кг</span>
              </div>
              <div class="item-name">
-               <a href="#">
-                 Сливочное с шоколадной стружкой
-               </a>
-               </div>
+             <a href="#">
+               Сливочное с шоколадной стружкой
+             </a>
+             </div>
             </div>
 
             <div class="product ice">
@@ -312,10 +312,10 @@
                 <span class="weight">/кг</span>
               </div>
               <div class="item-name">
-                <a href="#">
-                  Сливочно-ванильное с<br> кусочками шоколада
-                </a>
-                </div>
+              <a href="#">
+                Сливочно-ванильное с кусочками шоколада
+              </a>
+              </div>
             </div>
             <div class="product ice">
               <img src="img/10.png" width="267" height="267" alt="Глейси">
@@ -325,9 +325,9 @@
                 <span class="weight">/кг</span>
               </div>
               <div class="item-name">
-                <a href="#">
-                  Сливочное с ментоловым<br> сиропом
-                </a>
+              <a href="#">
+                Сливочное с ментоловым>br> сиропом
+              </a>
               </div>
             </div>
             <div class="product ice">
@@ -338,9 +338,9 @@
                 <span class="weight">/кг</span>
               </div>
               <div class="item-name">
-                <a href="#">
-                  Сливочное с кусочками черного шоколада
-                </a>
+              <a href="#">
+                Сливочное с кусочками черного шоколада
+              </a>
               </div>
             </div>
             <div class="product ice">
@@ -351,9 +351,9 @@
                 <span class="weight">/кг</span>
               </div>
               <div class="item-name">
-                <a href="#">
-                  Сливочное с мятным сиропом
-                </a>
+              <a href="#">
+                Сливочное с мятным сиропом
+              </a>
               </div>
             </div>
           </div>
