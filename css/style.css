@@ -17,7 +17,7 @@ body {
   background-color: #849d8f;
   /*background: yellow;*/
   padding: 0;
-  width:1200px;
+  /*width:1200px;*/
 }
 
 html {
@@ -385,7 +385,7 @@ body > input[type="radio"] {
 }
 .search:hover {
    background: #f8f7f4;
-   /*border-bottom: 7px solid #9bafa4;*/
+   /*border: 7px solid #9cb0a5;*/
 }
 .search:hover::before {
     background: url("../img/search-copy.svg") no-repeat;
@@ -529,6 +529,7 @@ input[type="password"] {
   box-shadow: 0 2px 2px rgba(172, 16, 0, 0.64);
   margin-left: 19px;
   margin-right: 15px;
+  border: 0px;
 }
 .login-btn:hover {
   background:    -moz-linear-gradient(top, #f58669 0%, #ec6f5e 100%);
@@ -588,14 +589,16 @@ input[type="password"] {
   height: 19px;
   background: transparent url("../img/cart-copy.svg") no-repeat;
 }
-/*.cart:hover {
-   background: #f8f7f4;
-   color: #373737;
-}*/
+.cart-buy:hover {
+   border-bottom: 4px solid #9cb0a5;
+}
+.cart-buy:hover .purchases{
+   display: block;
+}
 /*.cart:hover::before {
    background: transparent url("../img/cart-copy.svg") no-repeat;
 }*/
-.cart-even {
+.cart-empty {
   position: relative;
   display: inline-block;
   vertical-align: top;
@@ -611,7 +614,7 @@ input[type="password"] {
   /*background: #fff;;*/
   border-radius: 20px;
 }
-.cart-even::before {
+.cart-empty::before {
   content: "";
   position: absolute;
   top:6px;
@@ -621,7 +624,7 @@ input[type="password"] {
   background: transparent url("../img/cart.svg") no-repeat;
 }
 .purchases {
-   /*display: none;*/
+   display: none;
    min-width: 509px;
    position: absolute;
    z-index: 30;
@@ -635,7 +638,8 @@ input[type="password"] {
    font-size: 13px;
    line-height: 16px;
    font-weight: 400px;
-   border-radius: 0px;
+   border-radius: 5px;
+   box-shadow: 0 20px 28px 1px rgba(0, 0, 0, 0.4);
 }
 .orang-item,
 .berry-item {
@@ -687,11 +691,7 @@ input[type="password"] {
   cursor: pointer;
 }
 
-.line {
-  width: 100%;
-  margin-bottom: 10px;
-   border: 1px solid rgba(202, 202, 199, 0.7);
-}
+
 
 .cart-item-close::before,
 .cart-item-close::after {
@@ -722,9 +722,34 @@ input[type="password"] {
    margin-left: 22px;
    background: transparent url("../img/berry.png") no-repeat;
 }
+.line {
+  width: 100%;
+margin-bottom: 111px;
+   border: 1px solid rgba(202, 202, 199, 0.7);
+}
+.in-total {
+   position: absolute;
+   display: inline-block;
+   font-size: 15px;
+   line-height: 18px;
+   font-weight: 700;
+   margin-left: 0px;
+   right: 12px;
+   top: 145px;
+}
+.purchases .btn {
+   position: absolute;
+   padding: 10px 10px;
+   right: 15px;
+   bottom: 21px;
+   font-size: 18px;
+   line-height: 24px;
+   font-weight: 700;
+   border-radius: 20px;
+}
 .main-contacts {
   position: absolute;
-  right: 0;
+  right: 0px;
   top: 36px;
   width: 167px;
 }
@@ -1530,7 +1555,7 @@ footer a:active {
   margin-left: 17px;
   margin-bottom: 6px;
 }
-select.fame {
+select {
   width: 194px;
   height: 36px;
   font-size: 16px
@@ -1546,7 +1571,7 @@ select.fame {
 }
 select:hover {
    background: #ffffff;
-   color: 323232;
+   color: #323232;
 }
 .quality {
    width: 415px;
@@ -1862,10 +1887,11 @@ font-weight:
   border-color: #8fbdec;
 }
 .login-form textarea {
+  font-family: "Roboto", "Arial", sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
-  color: #323232;
+  color: #b4b4b4;
   height: 150px;
   margin-bottom: 17px;
   border: 2px solid #cccccc;
