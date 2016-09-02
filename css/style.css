@@ -621,97 +621,54 @@ input[type="password"] {
   background: transparent url("../img/cart.svg") no-repeat;
 }
 .purchases {
-   display: none;
-   min-width: 526px;
+   /*display: none;*/
+   min-width: 509px;
    position: absolute;
    z-index: 30;
    background: #f8f7f4;
-   padding-top: 16px;
+   padding-top: 20px;
    padding-left: 15px;
    padding-right: 15px;
    width: 528;
-   right: 20px;
+   right: 0px;
+   top: 36px;
+   font-size: 13px;
+   line-height: 16px;
+   font-weight: 400px;
+   border-radius: 0px;
 }
-.purchases table {
-  /*border-collapse: collapse;*/
-  font-size: 13px;
-  line-height: 16px;
-  font-weight: 400;
-  vertical-align: top;
+.orang-item {
+   /*background: lightgray;*/
 }
-.orange-item {
-  margin-bottom: 10px;
+.orang-item span {
+   display: inline-block;
+   vertical-align: middle;;
 }
-.orange-item td:first-child {
-   width: 17px;
+.closing {
+   /*margin-right: 15px;*/
 }
-.orange-item td:nth-child(2) {
-   width: 35px;
+.column-name {
+  margin-left: 11px;
 }
-.orange-item td:nth-child(3) {
-  width: 216px;
-  padding-top: 9px;
-  padding-bottom: 9px;
-  padding-left: 6px;
-  padding-right: 9px;
+.quant {
+   margin-left: 28px;
 }
-.orange-item td:nth-child(4) {
-  padding-left: 18px;
-  padding-right: 10px;
-  width: 95px;
+.weight-price {
+   color: #999999;
 }
-.orange-item td:last-child {
-  padding-left: 13px;
-  padding-right: 5px;
-  width: 50px;
+.quant-price {
+   margin-left: 25px;
 }
-
-.berry-item .cart-item-close{
-   top: 85px
-}
-.berry-item td:first-child {
-   width: 17px;
-}
-.berry-item td:nth-child(2) {
-   width: 35px;
-}
-.berry-item td:nth-child(3) {
-  padding-top: 8px;
-  padding-bottom: 13px;
-  padding-left: 6px;
-  padding-right: 9px;
-}
-.berry-item td:nth-child(4) {
-  padding-left: 18px;
-  padding-right: 10px;
-  padding-top: 7px;
-  vertical-align: top;
-}
-.berry-item td:last-child {
-  padding-left: 13px;
-  padding-right: 5px;
-  padding-top: 7px;
-  vertical-align: top;
-}
-.orange-item td {
-
-}
-.purchases td {
-   border: 1px solid black;
-}
-
 .cart-item-close {
   position: absolute;
   top: 30px;
   left: 16px;
-
   width: 12px;
   height: 12px;
-
   font-size: 0;
-
-  /*background-color: red;*/
-  background: transparent;
+  margin-right: 15px;
+  background-color: red;
+  /*background: transparent;*/
   border: 0;
   outline: 0;
   cursor: pointer;
@@ -727,7 +684,7 @@ input[type="password"] {
   content: "";
   position: absolute;
   top: 5px;
-  left: 0px;
+  left: -1px;
   width: 14px;
   height: 1px;
   background-color: #323232;
@@ -740,11 +697,9 @@ input[type="password"] {
   transform: rotate(-45deg);
 }
 .orange {
-   display: inline-block;
-   vertical-align: top;
    width: 33px;
    height: 33px;
-   margin-left: 0px;
+   margin-left: 22px;
    background: transparent url("../img/orange.png") no-repeat;
 }
 .berry {
@@ -754,14 +709,13 @@ input[type="password"] {
    width: 33px;
    height: 33px;
    margin-left: 0px;
-   margin-top: -25px;
+   margin-top: 25px;
    background: transparent url("../img/berry.png") no-repeat;
 }
 .main-contacts {
   position: absolute;
   right: 0;
   top: 36px;
-  /*background: red;*/
   width: 167px;
 }
 .time {
@@ -882,16 +836,29 @@ main {
   position: relative;
    margin-bottom: 22px;
 }
-.ice:first-child {
+.ice:first-child,
+.ice:nth-child(2),
+.ice:nth-child(3),
+.ice:nth-child(4) {
    z-index: 9;
+}
+.ice:nth-child(5),
+.ice:nth-child(6),
+.ice:nth-child(7),
+.ice:nth-child(8) {
+   z-index: 8;
+}
+.ice:nth-child(9),
+.ice:nth-child(10),
+.ice:nth-child(11),
+.ice:last-child {
+   z-index: 7;
 }
 .ice:hover .this{
    display: block;
 }
 
-.ice:nth-child(5) {
-   z-index: 7;
-}
+
 .ice:nth-child(2) .price-item {
    left: 2px;
 }
@@ -914,16 +881,17 @@ main {
   position: relative;
    z-index: 9;
 }
+
 .this {
   display: none;
   position: absolute;
   width: 293px;
   height: 405px;
-  background: rgba(167, 184, 173, 0.5);
+  background: rgba(167, 184, 173, 0.6);
   border-radius: 10px;
-  top: 0px;
+  top: -7px;
   left: -13px;
-  z-index: 8;
+  /*z-index: 8;*/
 }
 .opencart .btn {
   position: absolute;
@@ -932,8 +900,10 @@ main {
   line-heught: 24px;
   font-weight: 700;
   text-decoration: none;
-  padding:30px 23px;
+  padding:10px 17px;
   color:#fff;
+  top:340px;
+  left: 47px;
   border-radius:35px;
   box-shadow: 0 2px 2px 1px rgba(172, 16, 0, 0.64);
   text-shadow: 0 2px 5px  rgba(160, 32, 11, 0.76);
@@ -1000,17 +970,17 @@ span.hit {
 .ice .item-name {
    margin-top: 7px;
 }
-.product a {
+.item-name a {
   color: #ffffff;
   text-decoration: none;
   border-bottom: 1px solid rgba(256, 256, 256, 0.2);
 }
-.product a:hover {
+.item-name a:hover {
   color: #eb6e5f;
   text-decoration: none;
   border-bottom: 1px solid rgba(256, 256, 256, 0.2);
 }
-.product a:active {
+.item-name a:active {
   color: #e84d37;
   text-decoration: none;
   border-bottom: 1px solid rgba(256, 256, 256, 0.2);
@@ -1805,8 +1775,8 @@ input[type="checkbox"]:checked+label::before {
   width: 428px;
   height: 442px;
   background: #f8f7f4;
-  top: 300px;
-  left: 300px;
+  top: 338px;
+  left: 364px;
   border-radius: 10px;
   z-index:100;
 font-weight:
