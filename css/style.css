@@ -1556,18 +1556,20 @@ footer a:active {
   margin-bottom: 6px;
 }
 select {
-  width: 194px;
-  height: 36px;
-  font-size: 16px
-  line-height: 18px;
-  font-weight: 700;
-  color: #f1f4f2;
-  border-radius: 15px;
-  padding-left: 15px;
-  padding-right: 15px;
-  background: #aabab0;
-  border:none;
-  cursor:pointer;
+    font-family: Roboto;
+    font-size: 16px;
+    width: 194px;
+    height: 36px;
+    font-size: 16px
+    line-height: 18px;
+    font-weight: 700;
+    color: #f1f4f2;
+    border-radius: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background: #aabab0;
+    border: none;
+    cursor: pointer;
 }
 select:hover {
    background: #ffffff;
