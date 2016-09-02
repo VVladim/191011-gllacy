@@ -88,10 +88,10 @@
             <div class="berry-item">
                <span class="closing"><button class="cart-item-close" type="button" title="Закрыть">Закрыть</button></span>
                <span class="berry"></span>
-               <span class="column-name2">Клубничный пломбир с присыпкой<br>из белого шоколада</span>
+               <span class="column-name">Клубничный пломбир с присыпкой<br>bp ,tkjuj ijrjkflf</span>
                <span class="quant">1,5 кг x</span>
-               <span class="weight-price">300 руб.</span>
-               <span class="quant-price">450 руб.</span>
+               <span class="weight-price">200 руб.</span>
+               <span class="quant-price">300 руб.</span>
            </div>
            <div class="line"></div>
            <button class="btn">Отправить</button>

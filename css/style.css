@@ -637,10 +637,18 @@ input[type="password"] {
    font-weight: 400px;
    border-radius: 0px;
 }
-.orang-item {
-   /*background: lightgray;*/
+.orang-item,
+.berry-item {
+   position: relative;
 }
-.orang-item span {
+.orang-item {
+  margin-bottom: 21px;
+}
+.berry-item {
+  margin-bottom: 22px;
+}
+.orang-item span,
+.berry-item span {
    display: inline-block;
    vertical-align: middle;;
 }
@@ -649,6 +657,11 @@ input[type="password"] {
 }
 .column-name {
   margin-left: 11px;
+}
+.column-name2 {
+  position:relative;
+  margin-left: 11px;
+  top: 7px;
 }
 .quant {
    margin-left: 28px;
@@ -661,18 +674,19 @@ input[type="password"] {
 }
 .cart-item-close {
   position: absolute;
-  top: 30px;
-  left: 16px;
+  top: 9px;
+  left: 1px;
   width: 12px;
   height: 12px;
   font-size: 0;
   margin-right: 15px;
-  background-color: red;
-  /*background: transparent;*/
+  /*background-color: red;*/
+  background: transparent;
   border: 0;
   outline: 0;
   cursor: pointer;
 }
+
 .line {
   width: 100%;
   margin-bottom: 10px;
@@ -703,13 +717,9 @@ input[type="password"] {
    background: transparent url("../img/orange.png") no-repeat;
 }
 .berry {
-  position: absolute;
-   display: inline-block;
-   vertical-align: top;
    width: 33px;
    height: 33px;
-   margin-left: 0px;
-   margin-top: 25px;
+   margin-left: 22px;
    background: transparent url("../img/berry.png") no-repeat;
 }
 .main-contacts {
