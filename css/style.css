@@ -291,6 +291,10 @@ body > input[type="radio"] {
   padding-top: 1px;
   padding-bottom: 4px;
 }
+.sub-menu li:first-child {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
 .sub-menu a {
   display: block;
   font-size: 14px;
@@ -421,7 +425,6 @@ input[type="search"]  {
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
-
 .login {
   position: relative;
   display: inline-block;
@@ -482,7 +485,6 @@ input[type="search"]  {
    margin-left: 19px;
    margin-bottom: 20px;
 }
-
 input[type="text"] {
   font-size: 14px;
   line-height: 24px;
@@ -592,7 +594,7 @@ input[type="password"] {
   background: transparent url("../img/cart-copy.svg") no-repeat;
 }
 .cart-buy:hover {
-   border-bottom: 4px solid #9cb0a5;
+   border-bottom: 4px solid #849d8f;
 }
 .cart-buy:hover .purchases{
    display: block;
@@ -976,6 +978,8 @@ span.hit {
   line-height: 45px;
   font-weight: 700;
   color: #FFFFFF;
+  text-shadow: 1px 3px 0px  #313235;;
+  text-shadow: 1px 3px 0px  rgba(49, 50, 53, 0.5);
 }
 .price-item .ruble {
   /*position: absolute;*/
@@ -986,12 +990,16 @@ span.hit {
   width: 32px;
   height:37px;
   background: url("../img/ruble.svg");
+  text-shadow: 1px 3px 0px  #313235;;
+  text-shadow: 1px 3px 0px  rgba(49, 50, 53, 0.5);
 }
 .price-item .weight {
   font-size: 30px;
   line-height: 45px;
   font-weight: 700;
   color: #FFFFFF;
+  text-shadow: 1px 3px 0px  #313235;;
+  text-shadow: 1px 3px 0px  rgba(49, 50, 53, 0.5);
 }
 .item-name {
    margin-top: 6px
@@ -1113,7 +1121,6 @@ span.icon-thermometer {
   left: 1px;
   background: transparent url("../img/thermometer.svg") no-repeat;
 }
-
 .ours-news {
   /*background:lightgray;*/
   margin-bottom: 40px;
@@ -1606,7 +1613,6 @@ input[type="radio"]+label {
    color: #ffffff;
    /*border:1px solid black;*/
 }
-
 input[type="radio"]+label::after {
    content: "";
    display: inline-block;
@@ -1649,7 +1655,7 @@ input[type="radio"]:checked+label::before {
 }
 .sorting-taste {
    display: inline-block;
-   width: 689px;
+   width: 690px;
    height: 36px;
    padding-left: 16px;
    margin-right: 9px;
@@ -1659,9 +1665,17 @@ input[type="radio"]:checked+label::before {
 input[type="checkbox"] {
    display: none;
 }
-
 .mark {
    display: inline-block;
+}
+.mark:nth-child(2) {
+   margin-right: -4px;
+}
+.mark:nth-child(3) {
+   margin-right: 2px;
+}
+.mark:nth-child(4) {
+   margin-right: -2px;
 }
 input[type="checkbox"]+label {
    display: inline-block;
@@ -1870,12 +1884,11 @@ font-weight:
 .login-form input[type="text"] {
    width: 100%;
    padding: 11px 13px;
-   border: 2px solid #cccccc;
+   border: 1px solid #cccccc;
    border-radius: 5px;
    -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
-
    font-size: 16px;
    line-height: 24px;
    font-weight: 400;
@@ -1884,6 +1897,9 @@ font-weight:
 }
 .login-form input:hover {
   border: 2px solid #c7c6c5;
+  padding: 10px 12px;
+  border-radius: 5px;
+  border: 2px solid #849d8f;
 }
 .login-form input:focus {
   border-color: #8fbdec;
@@ -1896,13 +1912,7 @@ font-weight:
   color: #b4b4b4;
   height: 150px;
   margin-bottom: 17px;
-  border: 2px solid #cccccc;
-}
-.login-form textarea:hover {
-   border: 2px solid #c7c6c5;
-}
-.login-form textarea:active {
-   border: 2px solid #c7c6c5;
+  border: 1px solid #cccccc;
 }
 .login-form .btn {
   display: inline-block;
