@@ -773,9 +773,9 @@ main {
   position: relative;
   z-index: 4;
 }
-.main-head {
+/*.main-head {
   margin-bottom: 40px;
-}
+}*/
 .pleasure-item p, .pleasure-item h2 {
   color: white;
 }
