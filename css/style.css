@@ -1114,7 +1114,7 @@ span.icon-thermometer {
    padding-left: 20px;
    padding-top: 21px;
    padding-bottom: 81px;
-   background-color: #ffffff;
+   /*background-color: #ffffff;*/
    background-image: url("../img/strawberry.jpg");
 }
 .news p {
