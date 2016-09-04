@@ -34,6 +34,7 @@ form.addEventListener("submit", function(event) {
     localStorage.setItem("login", login.value)
   }
 });
+
 window.addEventListener("keydown", function(event) {
   if (event.keyCode === 27) {
     if (popup.classList.contains("modal-content-show")) {

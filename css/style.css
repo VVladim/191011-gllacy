@@ -38,24 +38,6 @@ h3{
   font-size:24px;
   line-height: 30px;
 }
-/*.backlight {
-  position: absolute;
-  width: 1045px;
-  height: 881px;
-  background: transparent url("../img/backlight.png") no-repeat;
-  top: 0;
-  left: 77px;
-  z-index :2;
-}*/
-/*.big-ice {
-  position: absolute;
-  width: 647px;
-  height: 584px;
-  background: transparent url("../img/big-ice.png") no-repeat;
-  top: 83px;
-  left: 277px;
-  z-index :3;
-}*/
 .site-wrapper {
   /*line-height: 1.2;*/
   /*min-width: 940px;*/
