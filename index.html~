@@ -129,12 +129,12 @@
         </div>
         <div class="list-product clearfix">
           <div class="product hit">
-            <div class="curtain">
+            <div class="this">
               <div class="opencart">
                 <a class="btn" href="#">Быстрый просмотр</a>
               </div>
             </div>
-            <div class="showcase">
+            <div class="lower one">
               <img src="img/1.png" width="267" height="267" alt="Глейси">
               <div class="white-circle"><span class="hit">ХИТ</span></div>
               <div class="price-item">
@@ -150,12 +150,12 @@
             </div>
           </div>
           <div class="product hit">
-            <div class="curtain">
+            <div class="this">
               <div class="opencart">
                 <a class="btn" href="#">Быстрый просмотр</a>
               </div>
             </div>
-            <div class="showcase">
+            <div class="lower one">
               <img src="img/2.png" width="267" height="267" alt="Глейси">
               <div class="white-circle"><span class="hit">ХИТ</span></div>
               <div class="price-item">
@@ -171,12 +171,12 @@
             </div>
           </div>
           <div class="product hit">
-            <div class="curtain">
+            <div class="this">
               <div class="opencart">
                 <a class="btn" href="#">Быстрый просмотр</a>
               </div>
             </div>
-            <div class="showcase">
+            <div class="lower one">
               <img src="img/3.png" width="267" height="267" alt="Глейси">
               <div class="white-circle"><span class="hit">ХИТ</span></div>
               <div class="price-item">
@@ -192,12 +192,12 @@
             </div>
           </div>
           <div class="product hit">
-            <div class="curtain">
+            <div class="this">
               <div class="opencart">
                 <a class="btn" href="#">Быстрый просмотр</a>
               </div>
             </div>
-            <div class="showcase">
+            <div class="lower one">
                <img src="img/4.png" width="267" height="267" alt="Глейси">
                <div class="white-circle"><span class="hit">ХИТ</span></div>
                <div class="price-item">
