@@ -1512,7 +1512,7 @@ footer a:active {
 }
 .price-controls input {
    width: 32px;
-   padding: 8px 1px;
+   padding: 8px 3px;
    font-size: 14px;
    line-height: 16px;
    font-weight: 400;
