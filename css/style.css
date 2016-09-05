@@ -834,7 +834,7 @@ main {
 .product:hover .curtain{
    display: block;
 }
-.product:nth-child(2) .price-item {
+/*.product:nth-child(2) .price-item {
    left: 0;
 }
 .product:nth-child(3) .price-item {
@@ -842,7 +842,7 @@ main {
 }
 .product:nth-child(4) .price-item {
    left: 0px;
-}
+}*/
 .product:nth-child(5) .ruble {
    margin-bottom: -2px;
 }
@@ -939,10 +939,9 @@ span.hit {
   text-shadow: 1px 3px 0px  rgba(49, 50, 53, 0.5);
 }
 .item-name {
-   margin-top: 6px
-}
-.ice .item-name {
    margin-top: 7px;
+   margin-left: 6px;
+   width: 255px;
 }
 .item-name a {
   color: #ffffff;
@@ -959,6 +958,16 @@ span.hit {
   text-decoration: none;
   border-bottom: 1px solid rgba(256, 256, 256, 0.2);
 }
+.catalog-item .product:nth-child(2) .price-item  {
+   left: 3px;
+}
+.catalog-item .product:nth-child(3) .price-item  {
+   left: 3px;
+}
+.catalog-item .product:nth-child(4) .price-item  {
+   left: 6px;
+}
+
 .features {
   margin-bottom: 40px;
   padding-top: 6px;
@@ -1334,6 +1343,9 @@ footer a:active {
   color: #fefefe;
   margin-top: -4px
 }
+.main-head {
+   margin-bottom: 2px;
+}
 .bread-rooms {
   margin: 0;
   padding: 0;
@@ -1346,7 +1358,7 @@ footer a:active {
   line-height: 16px;
   font-weight: normal;
   color: #fff;
-  margin-right: 18px;
+  margin-right: 17px;
 }
 .bread-rooms li:first-child::after {
   content: "»";
@@ -1556,7 +1568,7 @@ input[type="radio"]:checked+label::before {
   left: 5px;
 }
 .alter {
-   margin-bottom: 39px;
+   margin-bottom: 40px;
 }
 .alter span {
    display: block;
