@@ -5,12 +5,12 @@ var close = popup.querySelector(".modal-content-close");
 var login = popup.querySelector("[name=your-name]");
 var form = popup.querySelector("form");
 var mail = popup.querySelector("[name=mail]");
-// var storage = localStorage.getItem("login");
+
 
 link.addEventListener("click", function(event) {
   event.preventDefault();
   popup.classList.add("modal-content-show");
-});
+ });
 
  close.addEventListener("click", function(event) {
    event.preventDefault();
