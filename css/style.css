@@ -275,14 +275,11 @@ body>input[type="radio"] {
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
 }
-.sub-menu .sub-menu-active {
-  margin-top: -6px;
-}
-.sub-menu-active>a {
+/*.sub-menu-active>a {
   font-family: "Roboto", "Arial", sans-serif;
   background-color: #d07058;
   color: #ffffff;
-}
+}*/
 .sub-menu a {
   display: block;
   font-family: "Roboto", "Arial", sans-serif;
@@ -305,7 +302,7 @@ body>input[type="radio"] {
 .sub-menu-active a {
   background: #d07058;
   color: #ffffff;
-  padding-top: 10px;
+  padding-top: 3px;
 }
 .sub-menu .hard {
   padding-left: 10px;
@@ -331,8 +328,12 @@ body>input[type="radio"] {
 .sub-menu li:nth-child(3) {
   padding-top: 3px;
 }
+.sub-menu li:nth-child(4) {
+  padding-top: 2px;
+}
 .sub-menu li:last-child {
-  padding-bottom: 9px;
+ padding-top: 2px;
+  padding-bottom: 6px;
 }
 .main-navigation {
   float: left;
