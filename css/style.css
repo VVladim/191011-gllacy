@@ -1083,7 +1083,11 @@ span.hit {
   margin-top: 1px;
   margin-bottom: 4px;
 }
+.recipes {
+   width: 290px;
+}
 .news a {
+  width: 205px;
   font-size: 24px;
   line-height: 30px;
   font-weight: 700;
@@ -1112,9 +1116,13 @@ span.hit {
   padding-left: 20px;
 }
 .subscription-block p {
+ width: 510px;
   color: #5a5a5a;
   margin-bottom: 36px;
   margin-left: 3px;
+}
+.unit-word {
+  white-space: nowrap;
 }
 .subscription-block p span {
   word-spacing: 1px;
