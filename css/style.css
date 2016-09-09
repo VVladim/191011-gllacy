@@ -1197,6 +1197,12 @@ button.btn:active {
 .address, .order {
   margin-bottom: 33px;
 }
+.address p {
+  width: 170px;
+}
+.address .street {
+  width: 225px;
+}
 .map-contacts .street,
 .map-contacts .number {
   font-size: 18px;
