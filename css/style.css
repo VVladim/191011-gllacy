@@ -979,12 +979,10 @@ span.hit {
   background-image: url("../img/cell.jpg");
 }
 .features h3 {
+ width: 1010px;
   margin-top: 18px;
   margin-bottom: 5px;
   color: #323232;
-}
-.big-space {
-  letter-spacing: 2px;
 }
 .new-size {
   word-spacing: 1px;
@@ -1087,7 +1085,6 @@ span.hit {
    width: 290px;
 }
 .news a {
-  width: 205px;
   font-size: 24px;
   line-height: 30px;
   font-weight: 700;
