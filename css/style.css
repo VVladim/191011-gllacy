@@ -999,6 +999,7 @@ span.hit {
   margin-right: 10px;
 }
 .place-features p {
+  width: 480px;
   color: #323232;
   margin-left: 57px;
   padding-bottom: 6px;
